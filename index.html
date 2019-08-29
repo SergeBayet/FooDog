@@ -1,58 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link href="assets/css/style.css" media="screen, projection" rel="stylesheet" type="text/css" />
-	<link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet"> 
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
-	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<title>FooDog</title>
-</head>
-<body>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="brand col-12">
-				FooDog
-			</div>
-			<div class="social-network col-12">
-				<a href="#"><i class="fa fa-facebook"></i></a>
-				<a href="#"><i class="fa fa-twitter"></i></a>
-				<a href="#"><i class="fa fa-instagram"></i></a>
-				<a href="#"><i class="fa fa-search"></i></a>
-			</div>
-			
-			<div class="menu col-12">
-				<nav class="navbar navbar-expand-lg ">
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					
-				
-					<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-						<ul class="navbar-nav mx-auto mt-2 mt-lg-0">
-							<li class="nav-item active">
-								<a class="nav-link" href="#">Nutrition<span class="sr-only">(current)</span></a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Wellness</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Lifestyle</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Community</a>
-							</li>
-						</ul>
-						
-					</div>
-				</nav>
-			</div>
-			
-			
-		</div>
-	</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="assets/css/style.css"
+      media="screen, projection"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <title>FooDog</title>
+  </head>
+  <style>
+    div {
+      min-height: 60px;
+      border: 2px solid blue;
+    }
+  </style>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="brand col-12">
+          FooDog
+        </div>
+        <div class="social-network col-12">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-search"></i></a>
+        </div>
+
+        <div class="menu col-12">
+          <nav class="navbar navbar-expand-lg ">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarTogglerDemo03"
+              aria-controls="navbarTogglerDemo03"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"
+                    >Nutrition<span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Wellness</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Lifestyle</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Community</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+        <!--première img-->
+
+        <div class="thumb-primary col-12">
+          <div class="image row">
+            <div class="col-12"></div>
+          </div>
+          <div class="description row">
+            <div class="col-12">
+              <h3 class="subject">Wellness</h3>
+              <h2 class="title-article">Lorem ipsum</h2>
+            </div>
+          </div>
+        </div>
+
+        <!--images secondaires-->
+
+        <div class="thumb-secondary col-12">
+          <div class="image row">
+            <div class="col-12"></div>
+          </div>
+          <div class="description row">
+            <div class="col-12">
+              Lorem ipsum
+            </div>
+          </div>
+          <div class="image row">
+            <div class="col-12"></div>
+          </div>
+          <div class="description row">
+            <div class="col-12"></div>
+          </div>
+          <div class="image row">
+            <div class="col-12"></div>
+          </div>
+          <div class="description row">
+            <div class="col-12"></div>
+          </div>
+          <div class="image row">
+            <div class="col-12"></div>
+          </div>
+          <div class="description row">
+            <div class="col-12"></div>
+          </div>
+        </div>
+
+        <!--featured post-->
+
+        <div class="featured-post col-12">
+          <h2 class="title-secondary">Featured post</h2>
+          <div class="row">
+            <div class="col-12"></div>
+          </div>
+          <div class="row">
+            <div class="col-12"></div>
+          </div>
+          <div class="row">
+            <div class="col-12"></div>
+          </div>
+          <div class="row">
+            <div class="col-12"></div>
+          </div>
+          <div class="row">
+            <div class="col-12"></div>
+          </div>
+          <div class="row">
+            <div class="col-12"></div>
+          </div>
+        </div>
+
+        <div class="network-links col-12"></div>
+
+        <div class="advertise col-12"></div>
+
+        <div class="latest-posts col-12">
+          <h2 class="title-secondary">Latest posts</h2>
+          <div class="image row">
+            <div class="col-12"></div>
+          </div>
+          <div class="description row">
+            <div class="col-12">
+              Lorem ipsum
+            </div>
+          </div>
+          <div class="image row">
+            <div class="col-12"></div>
+          </div>
+          <div class="description row">
+            <div class="col-12"></div>
+          </div>
+          <div class="image row">
+            <div class="col-12"></div>
+          </div>
+          <div class="description row">
+            <div class="col-12"></div>
+          </div>
+          <div class="image row">
+            <div class="col-12"></div>
+          </div>
+          <div class="description row">
+            <div class="col-12"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="pagination col-12">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                  <span class="sr-only">Previous</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!--footer-->
+        <div class="col-12 footer">
+          <div class="row categories">
+            <div class="col-12"></div>
+          </div>
+          <div class="row popular-posts">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-12"></div>
+              </div>
+              <div class="row">
+                <div class="col-12"></div>
+              </div>
+              <div class="row">
+                <div class="col-12"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row instagram">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+              </div>
+              <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+              </div>
+              <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

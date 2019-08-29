@@ -1,29 +1,30 @@
-$brand-font: 'Crimson Text', serif;
+$brand-font: "Crimson Text", serif;
 $color-text: black;
-$text-font: 'Open Sans', sans-serif;
+$text-font: "Open Sans", sans-serif;
 
 .navbar-collapse ul li a {
-	text-decoration:none;
-	color:black;
-	text-transform:uppercase;
-	font-family: $text-font;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-family: $text-font;
 }
 
 .brand {
-	text-align:center;
-	font-family: $brand-font;
-	font-size:45px;
-	padding:20px;
+  text-align: center;
+  font-family: $brand-font;
+  font-size: 45px;
+  padding: 20px;
 }
 
 .social-network {
-	text-align:center;
-	a {
-		text-decoration:none;
-		color: $color-text;
-	}
-	i {
-		padding-left:10px;
-		padding-right:10px;
-	}
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: $color-text;
+  }
+  i {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
+@import "serge-style", "surya-style", "maxime-style", "valene-style";

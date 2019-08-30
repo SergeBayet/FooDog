@@ -8,7 +8,7 @@ $bgc-network-footer-container: #333639;
   li {
     font: {
       family: $text-font;
-      size: 40%;
+      size: 60%;
     }
     color: white;
     list-style-type: none;
@@ -26,7 +26,7 @@ $bgc-network-footer-container: #333639;
   .title-footer {
     font: {
       family: $text-font;
-      size: 54%;
+      size: 65%;
     }
     color: rgba(255, 255, 255, 0.281);
     margin-top: 10%;
@@ -42,7 +42,7 @@ $bgc-network-footer-container: #333639;
   .description-text {
     font: {
       family: $text-font;
-      size: 54%;
+      size: 60%;
       weight: bold;
     }
     color: white;
@@ -79,5 +79,9 @@ $bgc-network-footer-container: #333639;
   .col-lg-12 {
     color: white;
     font-family: $text-font;
+  }
+  .copyright {
+    padding-bottom: 20px;
+    font-size: small;
   }
 }

@@ -64,12 +64,13 @@ $text-font: "Open Sans", sans-serif;
   text-transform: uppercase;
   font-family: $text-font;
   font-weight: bold;
-  max-width: 20%;
+  min-width: 30%;
+  text-align: left;
 }
 .line {
   display: inline-block;
   border-top: 2px solid gray;
-  min-width: 75%;
+  min-width: 65%;
   transform: translateY(-5px);
 }
 .subject {

@@ -54,12 +54,13 @@
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  max-width: 20%; }
+  min-width: 30%;
+  text-align: left; }
 
 .line {
   display: inline-block;
   border-top: 2px solid gray;
-  min-width: 75%;
+  min-width: 65%;
   transform: translateY(-5px); }
 
 .subject {
@@ -157,7 +158,7 @@ img:hover {
   margin-top: 2%; }
   .footer-container li {
     font-family: "Open Sans", sans-serif;
-    font-size: 40%;
+    font-size: 60%;
     color: white;
     list-style-type: none;
     letter-spacing: 0.3px;
@@ -170,7 +171,7 @@ img:hover {
     margin-top: 6%; }
   .footer-container .title-footer {
     font-family: "Open Sans", sans-serif;
-    font-size: 54%;
+    font-size: 65%;
     color: rgba(255, 255, 255, 0.281);
     margin-top: 10%;
     margin-left: 20%; }
@@ -180,7 +181,7 @@ img:hover {
     margin: 10% 0 10% 10%; }
   .footer-container .description-text {
     font-family: "Open Sans", sans-serif;
-    font-size: 54%;
+    font-size: 60%;
     font-weight: bold;
     color: white;
     margin-top: 6%; }
@@ -210,6 +211,9 @@ img:hover {
   .network-footer-container .col-lg-12 {
     color: white;
     font-family: "Open Sans", sans-serif; }
+  .network-footer-container .copyright {
+    padding-bottom: 20px;
+    font-size: small; }
 
 .thumb-primary .subject {
   text-align: center; }
@@ -233,7 +237,7 @@ img:hover {
   color: #f1906d;
   text-transform: uppercase;
   border-right: solid 1px #b8b6b6;
-  width: 25%;
+  width: 35%;
   margin: 10px;
   font-family: "Open Sans", sans-serif;
   font-size: 9px; }

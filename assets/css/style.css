@@ -149,7 +149,8 @@ img {
   font-family: "Open Sans", sans-serif;
   font-size: 15px; }
 
-h3.subject {
+/*police, taille des titres en orange de la classe featured post*/
+.featured-post h3.subject {
   color: #f1906d;
   text-transform: uppercase;
   border-right: solid 1px #b8b6b6;
@@ -158,5 +159,48 @@ h3.subject {
   font-family: "Open Sans", sans-serif;
   font-size: 9px; }
 
+/*taille image de la classe featured post*/
 .featured-post img {
-  width: 100%; }
+  width: 100%;
+  margin: 5px; }
+
+/*mise en page liste a puce reseau sociaux*/
+.network-links {
+  width: 110%;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  font-size: 1px;
+  font-family: "Crimson Text", serif;
+  font-weight: bold;
+  font-family: "Crimson Text", serif;
+  font-size: 15px;
+  /*section span push right mise en page car dans une div diff*/ }
+  .network-links :nth-child(1) {
+    background: #a8c2eb; }
+    .network-links :nth-child(1) a {
+      background: transparent;
+      font-size: 12px; }
+  .network-links :nth-child(2) {
+    background: #52d1e2; }
+    .network-links :nth-child(2) a {
+      background: transparent;
+      font-size: 12px; }
+  .network-links :nth-child(3) {
+    background: #7677a1; }
+    .network-links :nth-child(3) a {
+      background: transparent;
+      font-size: 12px; }
+  .network-links a {
+    color: white;
+    background: transparent; }
+  .network-links span.push-right {
+    background: transparent; }
+  .network-links li {
+    margin: 3px;
+    padding: 8px; }
+
+/*publiciter */
+.advertise {
+  width: 110%;
+  margin-top: 15px; }

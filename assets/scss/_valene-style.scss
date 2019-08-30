@@ -4,10 +4,11 @@
         family: $text-font;
         size: 15px;
     }
-
 }
 
-h3.subject {
+/*police, taille des titres en orange de la classe featured post*/
+
+.featured-post h3.subject {
 
     color: rgb(241, 144, 109);
     text-transform: uppercase;
@@ -23,18 +24,104 @@ h3.subject {
     }
 }
 
-.featured-post{
-img{
+/*taille image de la classe featured post*/
+
+.featured-post img {
 
     width: 100%;
+    margin: 5px;
 }
 
 
+/*mise en page liste a puce reseau sociaux*/
 
-}
+.network-links {
+
+    width: 110%;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1px;
 
 
+    font: {
+        family: $brand-font;
+        weight: bold;
 
 
+    }
 
+
+    :nth-child(1) {
+
+        background: rgb(168, 194, 235);
+
+
+        a {
+            background: transparent;
+            font-size: 12px;
+        }
+    }
+
+    :nth-child(2) {
+
+        background: rgb(82, 209, 226);
+
+        a {
+            background: transparent;
+            font-size: 12px;
+        }
+
+    }
+
+    :nth-child(3) {
+
+        background: rgb(118, 119, 161);
+
+        a {
+            background: transparent;
+            font-size: 12px;
         
+
+        }
+    }
+
+
+
+    font: {
+        family: $brand-font;
+        size: 15px;
+    }
+
+    a {
+        color: white;
+        background: transparent;
+    }
+
+    /*section span push right mise en page car dans une div diff*/
+
+    span.push-right {
+
+        background: transparent;
+        
+
+    }
+
+    li {
+
+        margin: 3px;
+        padding: 8px;
+
+    }
+
+}
+
+/*publiciter */
+
+.advertise {
+
+    width: 110%;
+    margin-top:15px;
+}
+
+

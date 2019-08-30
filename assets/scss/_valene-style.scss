@@ -7,14 +7,13 @@
 
 }
 
-h3.subject {
+.featured-post h3.subject {
 
     color: rgb(241, 144, 109);
     text-transform: uppercase;
     border-right: solid 1px rgb(184, 182, 182);
     width: 25%;
     margin: 10px;
-
 
     font: {
         family: $text-font;

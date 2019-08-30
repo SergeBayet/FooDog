@@ -8,7 +8,8 @@
   text-align: center;
   font-family: "Crimson Text", serif;
   font-size: 45px;
-  padding: 20px; }
+  padding: 20px;
+  font-weight: bold; }
 
 .social-network {
   text-align: center; }
@@ -19,5 +20,114 @@
     padding-left: 10px;
     padding-right: 10px; }
 
+.title-article-small {
+  padding-top: 8px;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold; }
+
+.title-article-medium {
+  padding-top: 8px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold; }
+
+.title-article-large {
+  padding-top: 8px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold; }
+
+.thumb-primary .subject {
+  text-align: center; }
+
+.thumb-primary .title-article-large {
+  text-align: center; }
+
+.title-secondary {
+  display: inline-block;
+  padding-top: 8px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  max-width: 20%; }
+
+.line {
+  display: inline-block;
+  border-top: 2px solid gray;
+  min-width: 75%;
+  transform: translateY(-5px); }
+
+.subject {
+  padding-top: 8px;
+  color: red;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold; }
+
+.fa-share {
+  padding: 3px;
+  border: 1px solid gray;
+  border-radius: 50%; }
+
+.share {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold; }
+
+.description-text {
+  font-family: "Crimson Text", serif; }
+
 img {
-  width: 100%; }
+  width: 100%;
+  height: auto; }
+
+.pagination {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+  .pagination ul {
+    margin: auto; }
+    .pagination ul li {
+      display: inline-block;
+      text-decoration: none; }
+      .pagination ul li.page {
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #4C4F55;
+        border-radius: 50%;
+        font-size: 12px;
+        padding-top: 5px; }
+        .pagination ul li.page.active {
+          color: white;
+          background-color: #4C4F55; }
+      .pagination ul li a {
+        text-decoration: none;
+        color: inherit; }
+
+#arrow {
+  display: none;
+  cursor: pointer;
+  z-index: 99;
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 50%;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  width: 25px;
+  height: 25px;
+  border-radius: 2px;
+  background-color: #878787;
+  text-align: center; }
+  #arrow a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white; }
+  #arrow:hover {
+    opacity: 0.7; }

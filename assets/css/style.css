@@ -2,50 +2,62 @@
   text-decoration: none;
   color: black;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+}
 
 .brand {
   text-align: center;
   font-family: "Crimson Text", serif;
   font-size: 45px;
   padding: 20px;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .social-network {
-  text-align: center; }
-  .social-network a {
-    text-decoration: none;
-    color: black; }
-  .social-network i {
-    padding-left: 10px;
-    padding-right: 10px; }
+  text-align: center;
+}
+
+.social-network a {
+  text-decoration: none;
+  color: black;
+}
+
+.social-network i {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 .title-article-small {
   padding-top: 8px;
   font-size: 11px;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .title-article-medium {
   padding-top: 8px;
   font-size: 14px;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .title-article-large {
   padding-top: 8px;
   font-size: 18px;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .thumb-primary .subject {
-  text-align: center; }
+  text-align: center;
+}
 
 .thumb-primary .title-article-large {
-  text-align: center; }
+  text-align: center;
+}
 
 .title-secondary {
   display: inline-block;
@@ -54,13 +66,16 @@
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  max-width: 20%; }
+  max-width: 20%;
+}
 
 .line {
   display: inline-block;
   border-top: 2px solid gray;
   min-width: 75%;
-  transform: translateY(-5px); }
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
 
 .subject {
   padding-top: 8px;
@@ -68,47 +83,63 @@
   font-size: 10px;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .fa-share {
   padding: 3px;
   border: 1px solid gray;
-  border-radius: 50%; }
+  border-radius: 50%;
+}
 
 .share {
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .description-text {
-  font-family: "Crimson Text", serif; }
+  font-family: "Crimson Text", serif;
+}
 
 img {
   width: 100%;
-  height: auto; }
+  height: auto;
+}
 
 .pagination {
   padding-top: 25px;
-  padding-bottom: 25px; }
-  .pagination ul {
-    margin: auto; }
-    .pagination ul li {
-      display: inline-block;
-      text-decoration: none; }
-      .pagination ul li.page {
-        text-align: center;
-        width: 30px;
-        height: 30px;
-        border: 1px solid #4C4F55;
-        border-radius: 50%;
-        font-size: 12px;
-        padding-top: 5px; }
-        .pagination ul li.page.active {
-          color: white;
-          background-color: #4C4F55; }
-      .pagination ul li a {
-        text-decoration: none;
-        color: inherit; }
+  padding-bottom: 25px;
+}
+
+.pagination ul {
+  margin: auto;
+}
+
+.pagination ul li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.pagination ul li.page {
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #4C4F55;
+  border-radius: 50%;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.pagination ul li.page.active {
+  color: white;
+  background-color: #4C4F55;
+}
+
+.pagination ul li a {
+  text-decoration: none;
+  color: inherit;
+}
 
 #arrow {
   display: none;
@@ -124,30 +155,40 @@ img {
   height: 25px;
   border-radius: 2px;
   background-color: #878787;
-  text-align: center; }
-  #arrow a {
-    font-size: 16px;
-    text-decoration: none;
-    color: white; }
-  #arrow:hover {
-    opacity: 0.7; }
+  text-align: center;
+}
+
+#arrow a {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+#arrow:hover {
+  opacity: 0.7;
+}
 
 .thumb-primary .subject {
-  text-align: center; }
+  text-align: center;
+}
 
 .thumb-primary .title-article-large {
-  text-align: center; }
+  text-align: center;
+}
 
 .thumb-secondary img {
   width: 9em;
-  height: 9em; }
+  height: 9em;
+}
 
 .latest-posts {
-  text-align: center; }
+  text-align: center;
+}
 
 .title-secondary {
   font-family: "Open Sans", sans-serif;
-  font-size: 15px; }
+  font-size: 15px;
+}
 
 h3.subject {
   color: #f1906d;
@@ -156,7 +197,10 @@ h3.subject {
   width: 25%;
   margin: 10px;
   font-family: "Open Sans", sans-serif;
-  font-size: 9px; }
+  font-size: 9px;
+}
 
 .featured-post img {
-  width: 100%; }
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

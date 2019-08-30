@@ -27,11 +27,17 @@
     <link
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
-    />
+		/>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <title>FooDog</title>
   </head>
 
   <body>
+		<div id="arrow" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+			<a href="#"><i class="fa fa-caret-up"></i></a>
+		</div>
     <div class="container-fluid">
       <div class="row">
         <div class="brand col-12 offset-lg-2 col-lg-8">
@@ -41,7 +47,7 @@
           <a href="#"><i class="fa fa-facebook"></i></a>
           <a href="#"><i class="fa fa-twitter"></i></a>
           <a href="#"><i class="fa fa-instagram"></i></a>
-          <a href="#"><i class="fa fa-search"></i></a>
+					<a id="search" href="#"><i class="fa fa-search"></i></a>
         </div>
 
         <div class="menu col-12 offset-lg-2 col-lg-8">
@@ -90,7 +96,7 @@
             <div class="col-12 col-md-12">
               <h3 class="subject">Wellness</h3>
               <h2 class="title-article-large">
-                5 Reasons your dog is Vomiting
+                5 Reasons your dog is vomiting
               </h2>
             </div>
           </div>
@@ -102,26 +108,26 @@
           <div class="image row">
             <div class="col-12 col-md-6">
               <img src="/assets/images/adorable-1854119_640.jpg" alt="dog" />
-              <h2 class="title-article-small">top 14 fresh snacks for dogs</h2>
+              <h2 class="title-article-small">Top 14 fresh snacks for dogs</h2>
             </div>
 
             <div class="col-12 col-md-6">
               <img src="/assets/images/bulldog-1047518_640.jpg" alt="dog" />
-              <h2 class="title-article-small">why skinny dogs leave longer</h2>
+              <h2 class="title-article-small">Why skinny dogs leave longer</h2>
             </div>
           </div>
           <div class="image row">
             <div class="col-12 col-md-6">
               <img src="/assets/images/dog-1123016_640.jpg" alt="dog" />
               <h2 class="title-article-small">
-                the 10 most dangerous food for dogs
+                The 10 most dangerous food for dogs
               </h2>
             </div>
 
             <div class="col-12 col-md-6">
               <img src="/assets/images/dog-1398585_640.jpg" alt="dog" />
               <h2 class="title-article-small">
-                the history of commercial pet food: a great american marketing
+                The history of commercial pet food: a great american marketing
                 story
               </h2>
             </div>
@@ -130,7 +136,8 @@
 
           <!--featured post-->
         <div class="col-12 offset-lg-2 col-lg-6">
-          <h2 class="title-secondary">Featured posts</h2>
+					<h2 class="title-secondary">Featured posts</h2>
+					<span class="line"></span>
         </div>
         <div class="featured-post offset-lg-2 col-lg-6 col-md-12">
           <div class="row">
@@ -140,11 +147,11 @@
             <div class="col-md-7 col-lg-7">
               <h3 class="subject">Featured Nutrition </h3>
               <h2 class="title-article-medium">
-                cooking for your dog? watch out for this nutrient deficiencies
+                Cooking for your dog? watch out for this nutrient deficiencies
               </h2>
 
               <p class="description-text">
-                si you've discove the many issues whith commercial pet food and
+                If you've discovered the many issues whith commercial pet food and
                 have decided that a home cooked diet is much
               </p>
               <a class="share"><i class="fa fa-share"></i> Share</a>
@@ -155,7 +162,7 @@
             <div class="col-md-7 col-lg-7">
               <h3 class="subject">Featured Nutrition</h3>
               <h2 class="title-article-medium">
-                why you should be feeding your dog sardines
+                Why you should be feeding your dog sardines
               </h2>
 
               <p class="description-text">
@@ -210,7 +217,8 @@
         <!--latest posts-->
 
         <div class="latest-posts col-12 offset-lg-2 col-lg-6">
-          <h2 class="title-secondary">Latest posts</h2>
+					<h2 class="title-secondary">Latest posts</h2>
+					<span class="line"></span>
           <div class="row">
             <div class="col-12 col-md-6">
               <img src="/assets/images/dog-2785087_640.jpg" alt="dog" />
@@ -219,9 +227,7 @@
                 The 11 dog food label tricks every owner need to know
               </h2>
               <p class="description-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Adipisci non delectus beatae voluptate nihil quos provident,
-                dolorem quo maiores pariatur?
+									Health-conscious consumer are skilled at deciphering nutrition fact labels. We know to monitor our sodium intake, avoid carrageenan and hight
               </p>
             </div>
 
@@ -229,201 +235,221 @@
               <img src="/assets/images/dog-2983021_640.jpg" alt="dog" />
 
               <h3 class="subject">Wellness</h3>
-              <h2 class="title-article-medium">Lorem ipsum</h2>
+              <h2 class="title-article-medium">Superfood in your kitchen: pumpkins for dogs</h2>
               <p class="description-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Adipisci non delectus beatae voluptate nihil quos provident,
-                dolorem quo maiores pariatur?
+									They aren't just food for carving jack-or-lanterns on backing into hollyday pies.Packed with dietary fiber and potassium pumpkins are a
               </p>
             </div>
 
             <div class="col-12 col-md-6">
               <img src="/assets/images/dog-3305411_640.jpg" alt="dog" />
               <h3 class="subject">Wellness</h3>
-              <h2 class="title-article-medium">Lorem ipsum</h2>
+              <h2 class="title-article-medium">The truth about table scraps for dogs</h2>
               <p class="description-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Adipisci non delectus beatae voluptate nihil quos provident,
-                dolorem quo maiores pariatur?
+									Winter is golden opportunity for our dogs to make their way under heaping, warm dinner tables, sniffing for scraps 
               </p>
             </div>
 
             <div class="col-12 col-md-6">
               <img src="/assets/images/dog-4370694_640.jpg" alt="dog" />
               <h3 class="subject">Wellness</h3>
-              <h2 class="title-article-medium">Lorem ipsum</h2>
+              <h2 class="title-article-medium">What family really means your dog</h2>
               <p class="description-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Adipisci non delectus beatae voluptate nihil quos provident,
-                dolorem quo maiores pariatur?
+									Whether you prefer your turkey deep fried or roasted and your potatoes mashed or sweet,Thanksgiving has on universal truth:
               </p>
             </div>
 
             <div class="col-12 col-md-6">
               <img src="/assets/images/dog-690176_640.jpg" alt="dog" />
               <h3 class="subject">Wellness</h3>
-              <h2 class="title-article-medium">Lorem ipsum</h2>
+              <h2 class="title-article-medium">Super food in your kitchen: apple cider vinegar for dogs</h2>
               <p class="description-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Adipisci non delectus beatae voluptate nihil quos provident,
-                dolorem quo maiores pariatur?
+									Apple cider vinegar is a versatile health tonic. Packerd with powerful flavor punch, this elixir works well in homemade
               </p>
             </div>
 
             <div class="col-12 col-md-6">
               <img src="/assets/images/dog-778256_640.jpg" alt="dog" />
               <h3 class="subject">Wellness</h3>
-              <h2 class="title-article-medium">Lorem ipsum</h2>
+              <h2 class="title-article-medium">Working like a dog: benefice of dog in the office</h2>
               <p class="description-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Adipisci non delectus beatae voluptate nihil quos provident,
-                dolorem quo maiores pariatur?
+									once upon a time, having dogs in the office seemed like something out of e tech startup fairy tales; a
               </p>
             </div>
           </div>
         </div>
         <hr />
         <div class="pagination col-12 offset-lg-2 col-lg-6">
-          <nav aria-label="Page navigation example">
-            <ul class="pagination">
-              <li class="page-item">
-                <a class="page-link" href="#" aria-label="Previous">
-                  <span aria-hidden="true">&laquo;</span>
-                  <span class="sr-only">Previous</span>
-                </a>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item">
-                <a class="page-link" href="#" aria-label="Next">
-                  <span aria-hidden="true">&raquo;</span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </li>
-            </ul>
-          </nav>
+          <ul>
+						<li class="page active"><a href="#">1</a></li>
+						<li class="page"><a href="#">2</a></li>
+						<li class="ellipsis"><a href="#">...</a></li>
+						<li class="page"><a href="#">15</a></li>
+						<li class="page"><a href="#">&gt;</a></li>
+					</ul>
         </div>
-        <!--footer-->
-        <div class="col-12 footer offset-lg-2 col-lg-8">
-          <div class="row">
-            <div class="categories col-12 col-md-3 col-lg-4">
-              <h3 class="title-footer">Categories</h3>
-              <ul>
-                <li>Community</li>
-                <li>Featured</li>
-                <li>Lifestyle</li>
-                <li>Nutrition</li>
-                <li>Wellness</li>
-              </ul>
-            </div>
+				<!--footer-->
+				<div class="footer-container">
+					<div class="col-12 footer offset-lg-2 col-lg-8">
+						<div class="row">
+							<div class="categories col-12 col-md-3 col-lg-4">
+								<h3 class="title-footer">Categories</h3>
+								<ul>
+									<li>Community</li>
+									<li>Featured</li>
+									<li>Lifestyle</li>
+									<li>Nutrition</li>
+									<li>Wellness</li>
+								</ul>
+							</div>
 
-            <div class="popular-posts col-12 col-md-4 col-lg-4">
-              <h3 class="title-footer">Popular posts</h3>
-              <div class="row">
-                <div class="col-12">
-                  <div class="row">
-                    <div class="col-4">
-                      <img src="/assets/images/dog-843800_640.jpg" alt="dog" />
-                    </div>
-                    <div class="col-8">
-                      <p class="description-text">
-                        5 Reasons Your Dog is Vomiting
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12">
-                  <div class="row">
-                    <div class="col-4">
-                      <img
-                        src="/assets/images/dogs-4429513_640.jpg"
-                        alt="dog"
-                      />
-                    </div>
-                    <div class="col-8">
-                      <p class="description-text">
-                        Top 14 Fresh Snacks for Dogs
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12">
-                  <div class="row">
-                    <div class="col-4">
-                      <img
-                        src="/assets/images/fantasy-2890925_640.jpg"
-                        alt="dog"
-                      />
-                    </div>
-                    <div class="col-8">
-                      <p class="description-text">
-                        Why Skinny Dogs Live Longer
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+							<div class="popular-posts col-12 col-md-4 col-lg-4">
+								<h3 class="title-footer">Popular posts</h3>
+								<div class="row">
+									<div class="col-12">
+										<div class="row">
+											<div class="col-4">
+												<img src="/assets/images/dog-843800_640.jpg" alt="dog" />
+											</div>
+											<div class="col-8">
+												<p class="description-text">
+													5 Reasons Your Dog is Vomiting
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-12">
+										<div class="row">
+											<div class="col-4">
+												<img
+													src="/assets/images/dogs-4429513_640.jpg"
+													alt="dog"
+												/>
+											</div>
+											<div class="col-8">
+												<p class="description-text">
+													Top 14 Fresh Snacks for Dogs
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-12">
+										<div class="row">
+											<div class="col-4">
+												<img
+													src="/assets/images/fantasy-2890925_640.jpg"
+													alt="dog"
+												/>
+											</div>
+											<div class="col-8">
+												<p class="description-text">
+													Why Skinny Dogs Live Longer
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 
-            <div class="instagram col-12 col-md-5 col-lg-4">
-              <h3 class="title-footer">instagram</h3>
-              <div class="row">
-                <div class="col-4">
-                  <img
-                    src="/assets/images/reh-pinscher-4119263_640.jpg"
-                    alt="dog"
-                  />
-                </div>
-                <div class="col-4">
-                  <img src="/assets/images/wolf-2864647_640.jpg" alt="dog" />
-                </div>
-                <div class="col-4">
-                  <img src="/assets/images/massage-1790063_640.jpg" alt="dog" />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-4">
-                  <img
-                    src="/assets/images/adorable-1850276_640.jpg"
-                    alt="dog"
-                  />
-                </div>
-                <div class="col-4">
-                  <img src="/assets/images/pug-1210025_640.jpg" alt="dog" />
-                </div>
-                <div class="col-4">
-                  <img src="/assets/images/pug-690566_640.jpg" alt="dog" />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-4">
-                  <img src="/assets/images/pug-801826_1280.jpg" alt="dog" />
-                </div>
-                <div class="col-4">
-                  <img src="/assets/images/puppy-1118584_640.jpg" alt="dog" />
-                </div>
-                <div class="col-4">
-                  <img src="/assets/images/puppy-1893621_640.jpg" alt="dog" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="network-footer col-12 offset-lg-6 col-lg-6">
-          <a href="#"><i class="fa fa-facebook"></i></a>
-          <a href="#"><i class="fa fa-twitter"></i></a>
-          <a href="#"><i class="fa fa-instagram"></i></a>
-        </div>
-        <div class="col-12 col-md-12 col-lg-12">
-          Copyright 2019. BeCode Team
-        </div>
+							<div class="instagram col-12 col-md-5 col-lg-4">
+								<h3 class="title-footer">instagram</h3>
+								<div class="row">
+									<div class="col-4">
+										<img
+											src="/assets/images/reh-pinscher-4119263_640.jpg"
+											alt="dog"
+										/>
+									</div>
+									<div class="col-4">
+										<img src="/assets/images/wolf-2864647_640.jpg" alt="dog" />
+									</div>
+									<div class="col-4">
+										<img src="/assets/images/massage-1790063_640.jpg" alt="dog" />
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-4">
+										<img
+											src="/assets/images/adorable-1850276_640.jpg"
+											alt="dog"
+										/>
+									</div>
+									<div class="col-4">
+										<img src="/assets/images/pug-1210025_640.jpg" alt="dog" />
+									</div>
+									<div class="col-4">
+										<img src="/assets/images/pug-690566_640.jpg" alt="dog" />
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-4">
+										<img src="/assets/images/pug-801826_1280.jpg" alt="dog" />
+									</div>
+									<div class="col-4">
+										<img src="/assets/images/puppy-1118584_640.jpg" alt="dog" />
+									</div>
+									<div class="col-4">
+										<img src="/assets/images/puppy-1893621_640.jpg" alt="dog" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="network-footer-container">
+					<div class="network-footer col-12 offset-lg-6 col-lg-6">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+					<div class="col-12 col-md-12 col-lg-12">
+						Copyright 2019. BeCode Team
+					</div>
+				</div>
       </div>
-    </div>
-  </body>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Search</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<input type="text" value="" placeholder="Which dog?"/>
+					</div>
+					<div class="modal-footer">
+						
+						<button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>
+		$(document).ready(function(){
+			$("#search").click(function(){
+				$('#exampleModal').modal()
+			});
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+					document.getElementById("arrow").style.display = "block";
+				} else {
+					document.getElementById("arrow").style.display = "none";
+				}
+			}
+		});
+		
+
+	
+	</script>
 </html>

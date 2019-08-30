@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -28,7 +29,7 @@
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
 		/>
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <title>FooDog</title>
@@ -36,7 +37,7 @@
 
   <body>
 		<div id="arrow" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
-			<a href="#"><i class="fa fa-caret-up"></i></a>
+			<i class="fa fa-caret-up"></i>
 		</div>
     <div class="container-fluid">
       <div class="row">
@@ -51,7 +52,7 @@
         </div>
 
         <div class="menu col-12 offset-lg-2 col-lg-8">
-          <nav class="navbar navbar-expand-lg ">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <button
               class="navbar-toggler"
               type="button"
@@ -65,6 +66,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+							<a class="navbar-brand" href="#"></a>
               <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
                   <a class="nav-link" href="#"
@@ -90,7 +92,8 @@
         <div class="thumb-primary col-12 col-md-12 offset-lg-2 col-lg-5">
           <div class="image row">
             <div class="col-12 col-md-12">
-              <img src="/assets/images/adorable-1850276_640.jpg" alt="dog" />
+							
+								<a href="single.html"><img src="/assets/images/adorable-1850276_640.jpg" alt="dog" /></a>
             </div>
 
             <div class="col-12 col-md-12">
@@ -107,8 +110,10 @@
         <div class="thumb-secondary col-12 col-lg-3">
           <div class="image row">
             <div class="col-12 col-md-6">
+							
               <img src="/assets/images/adorable-1854119_640.jpg" alt="dog" />
-              <h2 class="title-article-small">Top 14 fresh snacks for dogs</h2>
+							<h2 class="title-article-small">Top 14 fresh snacks for dogs</h2>
+							
             </div>
 
             <div class="col-12 col-md-6">
@@ -155,7 +160,8 @@
                 have decided that a home cooked diet is much
               </p>
               <a class="share"><i class="fa fa-share"></i> Share</a>
-            </div>
+						</div>
+						<hr/>
             <div class="col-md-5 col-lg-5">
               <img src="/assets/images/dog-2094193_640.jpg" alt="dog" />
             </div>
@@ -170,7 +176,8 @@
                 have major news: that can of sardines that's been hiding in your
               </p>
               <a class="share"><i class="fa fa-share"></i> Share</a>
-            </div>
+						</div>
+						<hr/>
             <div class="col-md-5 col-lg-5">
               <img src="/assets/images/dog-2537902_640.jpg" alt="dog" />
             </div>
@@ -232,7 +239,7 @@
             </div>
 
             <div class="col-12 col-md-6">
-              <img src="/assets/images/dog-2983021_640.jpg" alt="dog" />
+              <img src="/assets/images/dogs-4429513_640.jpg" alt="dog" />
 
               <h3 class="subject">Wellness</h3>
               <h2 class="title-article-medium">Superfood in your kitchen: pumpkins for dogs</h2>
@@ -281,135 +288,142 @@
         <hr />
         <div class="pagination col-12 offset-lg-2 col-lg-6">
           <ul>
-						<li class="page active"><a href="#">1</a></li>
-						<li class="page"><a href="#">2</a></li>
-						<li class="ellipsis"><a href="#">...</a></li>
-						<li class="page"><a href="#">15</a></li>
-						<li class="page"><a href="#">&gt;</a></li>
+						<a href="#"><li class="page active">1</li></a>
+						<a href="single.html"><li class="page">2</li></a>
+						<a href="#"><li class="ellipsis">...</li></a>
+						<a href="#"><li class="page">15</li></a>
+						<a href="#"><li class="page">&gt;</li></a>
 					</ul>
         </div>
 				<!--footer-->
-				<div class="footer-container">
-					<div class="col-12 footer offset-lg-2 col-lg-8">
-						<div class="row">
-							<div class="categories col-12 col-md-3 col-lg-4">
-								<h3 class="title-footer">Categories</h3>
-								<ul>
-									<li>Community</li>
-									<li>Featured</li>
-									<li>Lifestyle</li>
-									<li>Nutrition</li>
-									<li>Wellness</li>
-								</ul>
-							</div>
+				<div class="footer-container col-12">
+					<div class="row">
+						<div class="col-12 footer offset-lg-2 col-lg-8">
+							<div class="row">
+								<div class="categories col-12 col-md-3 col-lg-4">
+									<h3 class="title-footer">Categories</h3>
+									<ul>
+										<li>Community</li>
+										<li>Featured</li>
+										<li>Lifestyle</li>
+										<li>Nutrition</li>
+										<li>Wellness</li>
+									</ul>
+								</div>
 
-							<div class="popular-posts col-12 col-md-4 col-lg-4">
-								<h3 class="title-footer">Popular posts</h3>
-								<div class="row">
-									<div class="col-12">
-										<div class="row">
-											<div class="col-4">
-												<img src="/assets/images/dog-843800_640.jpg" alt="dog" />
+								<div class="popular-posts col-12 col-md-4 col-lg-4">
+									<h3 class="title-footer">Popular posts</h3>
+									<div class="row">
+										<div class="col-12">
+											<div class="row">
+												<div class="col-4">
+													<img src="/assets/images/dog-843800_640.jpg" alt="dog" />
+												</div>
+												<div class="col-8">
+													<p class="description-text">
+														5 Reasons Your Dog is Vomiting
+													</p>
+												</div>
 											</div>
-											<div class="col-8">
-												<p class="description-text">
-													5 Reasons Your Dog is Vomiting
-												</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-12">
+											<div class="row">
+												<div class="col-4">
+													<img
+														src="/assets/images/dogs-4429513_640.jpg"
+														alt="dog"
+													/>
+												</div>
+												<div class="col-8">
+													<p class="description-text">
+														Top 14 Fresh Snacks for Dogs
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-12">
+											<div class="row">
+												<div class="col-4">
+													<img
+														src="/assets/images/fantasy-2890925_640.jpg"
+														alt="dog"
+													/>
+												</div>
+												<div class="col-8">
+													<p class="description-text">
+														Why Skinny Dogs Live Longer
+													</p>
+												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="row">
-									<div class="col-12">
-										<div class="row">
-											<div class="col-4">
-												<img
-													src="/assets/images/dogs-4429513_640.jpg"
-													alt="dog"
-												/>
-											</div>
-											<div class="col-8">
-												<p class="description-text">
-													Top 14 Fresh Snacks for Dogs
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-12">
-										<div class="row">
-											<div class="col-4">
-												<img
-													src="/assets/images/fantasy-2890925_640.jpg"
-													alt="dog"
-												/>
-											</div>
-											<div class="col-8">
-												<p class="description-text">
-													Why Skinny Dogs Live Longer
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
 
-							<div class="instagram col-12 col-md-5 col-lg-4">
-								<h3 class="title-footer">instagram</h3>
-								<div class="row">
-									<div class="col-4">
-										<img
-											src="/assets/images/reh-pinscher-4119263_640.jpg"
-											alt="dog"
-										/>
+								<div class="instagram col-12 col-md-5 col-lg-4">
+									<h3 class="title-footer">instagram</h3>
+									<div class="row">
+										<div class="col-4">
+											<img
+												src="/assets/images/reh-pinscher-4119263_640.jpg"
+												alt="dog"
+											/>
+										</div>
+										<div class="col-4">
+											<img src="/assets/images/wolf-2864647_640.jpg" alt="dog" />
+										</div>
+										<div class="col-4">
+											<img src="/assets/images/massage-1790063_640.jpg" alt="dog" />
+										</div>
 									</div>
-									<div class="col-4">
-										<img src="/assets/images/wolf-2864647_640.jpg" alt="dog" />
+									<div class="row">
+										<div class="col-4">
+											<img
+												src="/assets/images/adorable-1850276_640.jpg"
+												alt="dog"
+											/>
+										</div>
+										<div class="col-4">
+											<img src="/assets/images/pug-1210025_640.jpg" alt="dog" />
+										</div>
+										<div class="col-4">
+											<img src="/assets/images/pug-690566_640.jpg" alt="dog" />
+										</div>
 									</div>
-									<div class="col-4">
-										<img src="/assets/images/massage-1790063_640.jpg" alt="dog" />
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-4">
-										<img
-											src="/assets/images/adorable-1850276_640.jpg"
-											alt="dog"
-										/>
-									</div>
-									<div class="col-4">
-										<img src="/assets/images/pug-1210025_640.jpg" alt="dog" />
-									</div>
-									<div class="col-4">
-										<img src="/assets/images/pug-690566_640.jpg" alt="dog" />
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-4">
-										<img src="/assets/images/pug-801826_1280.jpg" alt="dog" />
-									</div>
-									<div class="col-4">
-										<img src="/assets/images/puppy-1118584_640.jpg" alt="dog" />
-									</div>
-									<div class="col-4">
-										<img src="/assets/images/puppy-1893621_640.jpg" alt="dog" />
+									<div class="row">
+										<div class="col-4">
+											<img src="/assets/images/pug-801826_1280.jpg" alt="dog" />
+										</div>
+										<div class="col-4">
+											<img src="/assets/images/puppy-1118584_640.jpg" alt="dog" />
+										</div>
+										<div class="col-4">
+											<img src="/assets/images/puppy-1893621_640.jpg" alt="dog" />
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="network-footer-container">
-					<div class="network-footer col-12 offset-lg-6 col-lg-6">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-instagram"></i></a>
-					</div>
-					<div class="col-12 col-md-12 col-lg-12">
-						Copyright 2019. BeCode Team
-					</div>
+				<div class="network-footer-container col-12">
+          <div class="row">
+            <div class="network-footer col-12 offset-lg-6 col-lg-6">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+            <div class="col-12 col-md-12 col-lg-12">
+              Copyright 2019. BeCode Team
+            </div>
+          </div>
+					
 				</div>
+					
+				
       </div>
 		</div>
 		<!-- Modal -->

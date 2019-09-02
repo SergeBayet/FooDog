@@ -1,22 +1,116 @@
- .thumb-primary {
-     .subject {
-         text-align: center;
-     }
- }
+.thumb-primary {
+    .subject {
+        text-align: center;
+    }
+}
 
- .thumb-primary {
-     .title-article-large {
-         text-align: center;
-     }
- }
+.thumb-primary {
+    .title-article-large {
+        text-align: center;
+    }
+}
 
- .thumb-secondary {
-     img {
-         width: 9em;
-         height: 9em;
-     }
- }
+.thumb-secondary {
+    img {
+        width: 9em;
+        height: 9em;
+    }
+}
 
- .latest-posts {
-     text-align: center;
- }
+.latest-posts {
+    text-align: center;
+}
+
+h3 {
+    &.subject-single {
+        text-align: center;
+    }
+}
+
+h2 {
+    &.title-secondary-single {
+        text-align: center;
+    }
+}
+
+.col-lg-4 {
+    img {
+        padding-bottom: 30px;
+    }
+}
+
+.col-5 {
+    .farmers-dog {
+        background-image: url("https://media.licdn.com/dms/image/C560BAQF-VJeUHqV6Rg/company-logo_200_200/0?e=2159024400&v=beta&t=2jyIAxjd1tVfp6vHPVCWmF0Xv6C_xTxwU3R1chveDa8");
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        padding-left: 30px;
+        text-align: left;
+        height: 30px;
+        font-size: xx-small;
+    }
+}
+
+.row {
+    .icons-row {
+        border-top: dotted 5px black;
+        border-bottom: dotted 5px black;
+        text-align: center;
+    }
+
+
+    .col-7 {
+
+        a {
+            text-decoration: none;
+            font-size: 13px;
+            text-align: center;
+
+            i {
+                &.fa-facebook {
+                    background-color: #7677a1;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    padding-top: 4px;
+                    color: white;
+
+                    vertical-align: middle;
+                }
+
+                &.fa-twitter {
+                    background-color: #52d1e2;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    color: white;
+                    padding-top: 4px;
+                    vertical-align: middle;
+
+                }
+
+                &.fa-pinterest {
+                    background-color: red;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    padding-top: 4px;
+                    color: white;
+                    vertical-align: middle;
+                }
+            }
+        }
+
+        border-radius: solid 40px #7677a1;
+
+        .btn {
+            font-size: xx-small;
+        }
+    }
+
+    .share-single {
+        color: black;
+        font-size: 15px;
+    }
+}

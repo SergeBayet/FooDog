@@ -96,3 +96,149 @@
   width: 110%;
   margin-top: 15px;
 }
+
+
+
+/* single page article mise en forme*/
+
+p.article-single {
+
+  text-align: left;
+  margin-top: 5px;
+
+  font: {
+    family: $brand-font;
+    size: 15px;
+
+  }
+
+
+}
+
+
+h2.subtitle-single {
+
+
+  font: {
+    family: $text-font;
+    size: 15px;
+    weight: bolder;
+
+  }
+
+}
+
+.network-article {
+
+  background: transparent;
+  text-transform: uppercase;
+
+  button {
+
+    margin: 8px;
+
+  }
+
+
+  font: {
+    family: $brand-font;
+    size: 10px;
+  }
+
+  :nth-child(1):before {
+
+    a {
+      background: transparent;
+      font-size: 12px;
+    }
+  }
+
+  :nth-child(2) {
+    background: rgb(65, 62, 62);
+
+
+    a {
+      background: transparent;
+      font-size: 12px;
+    }
+  }
+
+  :nth-child(3) {
+    background: rgb(118, 119, 161);
+
+    a {
+      background: transparent;
+      font-size: 12px;
+    }
+  }
+
+  :nth-child(4) {
+
+    background: rgb(79, 197, 226);
+  }
+
+  :nth-child(5) {
+
+    background: red;
+  }
+
+}
+
+/*Subscribe to The Digest Newslette*/
+
+h2 {
+
+  &.title-subscribe-single {
+
+    text-align: center;
+
+    font: {
+      family: $brand-font;
+      size: 30px;
+    }
+  }
+}
+
+p {
+
+
+  &.subtitle-subscribe-single {
+
+    text-align: center;
+
+  }
+}
+
+form.form-subscribe-single {
+
+  text-align: center;
+
+}
+
+form.form-subscribe-single {
+
+  background: rgb(233, 150, 122);
+
+}
+
+
+span.sign-up-subscribe-single {
+
+
+  padding: 19px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+
+
+
+}
+
+input.input-subscribe-single {
+
+  padding: 5px;
+  border-right: none;
+  width: 81%;
+
+}

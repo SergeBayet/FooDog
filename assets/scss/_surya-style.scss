@@ -85,3 +85,74 @@ $bgc-network-footer-container: #333639;
     font-size: small;
   }
 }
+
+/*css single page*/
+.title-single {
+  font: {
+    family: $brand-font;
+    weight: bolder;
+    size: 120%;
+  }
+}
+.digest {
+  margin-top: 20px;
+  text-align: center;
+  font: {
+    family: arial;
+    size: 60%;
+  }
+  .sign-up-border {
+    background-color: black;
+    padding-top: 4px;
+    padding-bottom: 5px;
+  }
+  .sign-up {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+}
+.farmer {
+  text-align: right;
+
+  .farmers-dog {
+    display: inline-block;
+    background-image: url("/assets/images/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding-left: 20px;
+    i {
+      margin-left: 30px;
+      margin-top: 10px;
+    }
+  }
+}
+hr {
+  margin: 0;
+  padding: 0;
+}
+.dropdown-item:hover {
+  background-color: rgba(100, 95, 95, 0.705);
+}
+@media screen and (max-width: 767px) {
+  .farmer {
+    text-align: center;
+
+    .farmers-dog {
+      display: inline-block;
+      background-image: url("/assets/images/logo.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 40px;
+      height: 40px;
+      margin-top: 10px;
+      margin-right: 20px;
+    }
+  }
+}

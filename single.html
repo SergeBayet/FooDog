@@ -1,92 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link
-      href="assets/css/style.css"
-      media="screen, projection"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-    />
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <title>FooDog</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link href="assets/css/style.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:800&display=swap" rel="stylesheet" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
-  <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-3 brand-single">
-          <span class="burger-menu"> </span>
-          <span class="title-single">
-            Foodog
-          </span>
-        </div>
-        <div class="col-6 digest">
-          <form>
-            Digest in your inbox
-            <input type="text" placeholder="your email" />
-            <span>sing up</span>
-          </form>
-        </div>
-        <div class="col-3 farmer">
-          <span class="farmers-dog"></span>
-          <i class="fa fa-search"></i>
-        </div>
-        <div class="col-3"></div>
-        <div class="col-4">
-          <h3 class="subject">Nutrition</h3>
-          <h2 class="title-secondary-single">
-            The 11 dog food label tricks every owner nneds to know
-          </h2>
-          <img src="/assets/images/pug-1210025_640.jpg" />
-        </div>
-        <div class="col-2">
-          <div class="follow">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <title>FooDog</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-12 brand-single">
+        <span class="burger-menu"> </span>
+        <span class="title-single">
+          Foodog
+        </span>
+      </div>
+      <div class="col-lg-6 col-md-6 col-12 digest">
+        <form>
+          Digest in your inbox
+          <input type="text" placeholder="your email" />
+          <span class="sign-up">sign-up</span>
+        </form>
+      </div>
+      <div class="col-lg-3 col-md-3 col-12 farmer">
+        <span class="farmers-dog"></span>
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="col-lg-3 col-md-12"></div>
+      <div class="col-lg-4 col-md-12">
+        <h3 class="subject">Nutrition</h3>
+        <h2 class="title-secondary-single">
+          The 11 dog food label tricks every owner nneds to know
+        </h2>
+        <img src="/assets/images/pug-1210025_640.jpg" />
+        <div class="row">
+          <div class="col-6">
+            <span class="farmers-dog"></span>
+            by: THE FARMER'S DOG
+          </div>
+          <div class="col-6">
+            <button type="button" class="btn btn-secondary btn-sm">
+              <i class="fa fa-comment"></i> COMMENT
+            </button>
+            <a href="#" class="share-single">share</a>
             <a href="#"><i class="fa fa-facebook"></i></a>
             <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-instagram"></i></a>
             <a href="#"><i class="fa fa-pinterest"></i></a>
           </div>
-          <div class="advertise-single">
-            <img src="/assets/images/girl-3706740_640.jpg" alt="" />
+        </div>
+        <p class="article-single">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+          fuga optio aut sequi culpa consectetur aspernatur similique quas
+          magni veniam, consequatur, ipsum laborum, est ab.
+        </p>
+        <p class="article-single">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo,
+          itaque vero iusto sed pariatur est modi. Deserunt officia blanditiis
+          sapiente commodi illum, tempora excepturi incidunt alias autem
+          aperiam facere fuga? Libero, earum! Ducimus minus adipisci, vel vero
+          amet eius dolorem quasi deleniti accusamus quam cumque quia,
+          consequatur, at odio cupiditate.
+        </p>
+        <p class="article-single">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+          impedit consectetur unde numquam, qui dicta!
+        </p>
+        <h2 class="subtitle-single">First ingredient</h2>
+        <p class="article-single">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit eius
+          quidem aliquam vel cum reiciendis assumenda quos dolores ad possimus
+          quisquam accusantium temporibus quas autem animi neque vitae quasi
+          non est voluptatibus consequatur voluptatum, facilis mollitia ut!
+          Tempora, magni quaerat.
+        </p>
+        <h2 class="subtitle-single">Gourmet</h2>
+        <p class="article-single">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
+          natus magnam molestiae ipsum omnis? Laborum odio nesciunt optio?
+          Nulla, laboriosam!
+        </p>
+        <h2 class="subtitle-single">Grain-free</h2>
+        <p class="article-single">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
+          natus magnam molestiae ipsum omnis? Laborum odio nesciunt optio?
+          Nulla, laboriosam!
+        </p>
+        <h2 class="subtitle-single">Cage-free and/or free-range</h2>
+        <p class="article-single">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
+          natus magnam molestiae ipsum omnis? Laborum odio nesciunt optio?
+          Nulla, laboriosam!
+        </p>
+        <h2 class="subtitle-single">Grass-fed</h2>
+        <p class="article-single">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
+          natus magnam molestiae ipsum omnis? Laborum odio nesciunt optio?
+          Nulla, laboriosam!
+        </p>
+        <p class="article-single">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea
+          aliquam, earum deserunt dolor similique ipsum?
+        </p>
+        <p class="article-signature-single">Lorem ipsum dolor sit amet.</p>
+        <div class="network-article">
+          <a href="#" class="share-single">share</a>
+          <button type="button" class="btn btn-secondary btn-comment btn-sm">
+            <i class="fa fa-comment"></i> 0 COMMENT
+          </button>
+          <button type="button" class="btn btn-secondary btn-facebook btn-sm">
+            <i class="fa fa-facebook"></i> SHARE
+          </button>
+          <button type="button" class="btn btn-secondary btn-twitter btn-sm">
+            <i class="fa fa-twitter"></i> TWEET
+          </button>
+          <button type="button" class="btn btn-secondary btn-pinterest btn-sm">
+            <i class="fa fa-pinterest"></i> PIN IT!
+          </button>
+        </div>
+        <div class="subscribe-single">
+          <h2 class="title-subscribe-single">
+            Subscribe to The Digest Newsletter
+          </h2>
+          <p class="subtitle-subscribe-single">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+            veritatis.
+          </p>
+          <form action="" class="form-subscribe-single">
+            <input class="input-subscribe-single" type="text" placeholder="your email" />
+            <span class="sign-up-subscribe-single">sign-up</span>
+          </form>
+        </div>
+        <div class="row">
+          <div class="col-6 previous-article">
+            <a href="#">&lt; PREVIOUS ARTICLE</a>
+            <h2 class="previous-article-title">
+              Lorem ipsum dolor sit amet.
+            </h2>
+          </div>
+
+          <div class="col-6 next-article"></div>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <span class="farmers-dog"></span>
+          </div>
+          <div class="col-10">
+            <h2 class="title-rubric">
+              The Farmer's Dog
+            </h2>
+            <p class="text-rubric">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor a
+              omnis fuga placeat ex odio iste, enim nobis, saepe sit, tenetur
+              non necessitatibus ad vel soluta. Molestiae earum impedit
+              aliquam perferendis dolores doloribus praesentium ratione
+              recusandae cumque non, quos quam!
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 title-alsolike">You might also like</div>
+          <div class="col-4">
+            <img src="" alt="" />
+            <h2 class="title-image">Lorem ipsum dolor sit.</h2>
+          </div>
+          <div class="col-4">
+            <img src="" alt="" />
+            <h2 class="title-image">Lorem ipsum dolor sit.</h2>
+          </div>
+          <div class="col-4">
+            <img src="" alt="" />
+            <h2 class="title-image">Lorem ipsum dolor sit.</h2>
+          </div>
+        </div>
+        <hr />
+        <h2 class="title-response">LEAVE A RESPONSE</h2>
+        <form action="" class="form-response">
+          <textarea class="text-response" name="story">
+            Write your comment here...
+            </textarea>
+        </form>
+
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-4">
+            <input type="text" placeholder="Name..." />
+          </div>
+          <div class="col-12 col-md-4 col-lg-4">
+            <input type="text" placeholder="Email..." />
+          </div>
+          <div class="col-12 col-md-4 col-lg-4">
+            <input type="text" placeholder="Website..." />
+          </div>
+        </div>
+        <button type="button" class="btn btn-secondary btn-sm">
+          LEAVE A COMMENT
+        </button>
+      </div>
+      <!-- col-4 Container du milieu-->
+
+      <div class="offset-lg-0 col-lg-2  offset-md-3 col-md-6  col-12">
+        <div class="follow">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-pinterest"></i></a>
+        </div>
+        <div class="advertise-single">
+          <img src="/assets/images/girl-3706740_640.jpg" alt="" />
+        </div>
+      </div>
+      <!-- FOOTER -->
+      <div class="footer-container col-12">
+        <div class="row">
+          <div class="col-12 footer offset-lg-2 col-lg-8">
+            <div class="row">
+              <div class="categories col-12 col-md-3 col-lg-4">
+
+                <ul>
+                  <li>Community</li>
+                  <li>Featured</li>
+                  <li>Lifestyle</li>
+                  <li>Nutrition</li>
+                  <li>Wellness</li>
+                </ul>
+              </div>
+
+              <div class="popular-posts col-12 col-md-4 col-lg-4">
+
+                <div class="row">
+                  <div class="col-12">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="/assets/images/dog-843800_640.jpg" alt="dog" />
+                      </div>
+                      <div class="col-8">
+                        <p class="description-text">
+                          5 Reasons Your Dog is Vomiting
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="/assets/images/dogs-4429513_640.jpg" alt="dog" />
+                      </div>
+                      <div class="col-8">
+                        <p class="description-text">
+                          Top 14 Fresh Snacks for Dogs
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="/assets/images/fantasy-2890925_640.jpg" alt="dog" />
+                      </div>
+                      <div class="col-8">
+                        <p class="description-text">
+                          Why Skinny Dogs Live Longer
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="instagram col-12 col-md-5 col-lg-4">
+
+                <div class="row">
+                  <div class="col-4">
+                    <img src="/assets/images/reh-pinscher-4119263_640.jpg" alt="dog" />
+                  </div>
+                  <div class="col-4">
+                    <img src="/assets/images/wolf-2864647_640.jpg" alt="dog" />
+                  </div>
+                  <div class="col-4">
+                    <img src="/assets/images/massage-1790063_640.jpg" alt="dog" />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-4">
+                    <img src="/assets/images/adorable-1850276_640.jpg" alt="dog" />
+                  </div>
+                  <div class="col-4">
+                    <img src="/assets/images/pug-1210025_640.jpg" alt="dog" />
+                  </div>
+                  <div class="col-4">
+                    <img src="/assets/images/pug-690566_640.jpg" alt="dog" />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-4">
+                    <img src="/assets/images/pug-801826_1280.jpg" alt="dog" />
+                  </div>
+                  <div class="col-4">
+                    <img src="/assets/images/puppy-1118584_640.jpg" alt="dog" />
+                  </div>
+                  <div class="col-4">
+                    <img src="/assets/images/puppy-1893621_640.jpg" alt="dog" />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <div class="network-footer-container copyright col-12">
+
+        Copyright 2019. BeCode Team
+
+      </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

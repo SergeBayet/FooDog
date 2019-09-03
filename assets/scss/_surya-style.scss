@@ -87,15 +87,32 @@ $bgc-network-footer-container: #333639;
 }
 
 /*css single page*/
-.title-single {
-  font: {
-    family: $brand-font;
-    weight: bolder;
-    size: 120%;
+.pos-f-t {
+  margin-top: 10px;
+  position: relative;
+  li {
+    list-style-type: none;
+    a {
+      text-decoration: none;
+      color: black;
+      font: {
+        family: $text-font;
+        size: 15px;
+      }
+    }
+  }
+  .title-single {
+    position: absolute;
+    left: 80px;
+    font: {
+      family: $brand-font;
+      weight: bolder;
+      size: 120%;
+    }
   }
 }
 .digest {
-  margin-top: 20px;
+  margin-top: 30px;
   text-align: center;
   font: {
     family: arial;
@@ -124,22 +141,38 @@ $bgc-network-footer-container: #333639;
     background-size: cover;
     width: 40px;
     height: 40px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-right: 20px;
-    padding-left: 20px;
-    i {
-      margin-left: 30px;
-      margin-top: 10px;
+    position: relative;
+
+    #search {
+      &:hover {
+        cursor: pointer;
+        pointer-events: auto;
+      }
+      color: black;
+      text-decoration: none;
+      display: inline-block;
+      position: absolute;
+      top: 10px;
+      left: 50px;
     }
   }
 }
+.bg-dark {
+  background-color: white !important;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 hr {
   margin: 0;
   padding: 0;
 }
-.dropdown-item:hover {
-  background-color: rgba(100, 95, 95, 0.705);
-}
+
+/*MEDIA QUERIES!!!!!*/
 @media screen and (max-width: 767px) {
   .farmer {
     text-align: center;
@@ -151,8 +184,16 @@ hr {
       background-size: cover;
       width: 40px;
       height: 40px;
-      margin-top: 10px;
-      margin-right: 20px;
+    }
+    #search {
+      &:hover {
+        cursor: pointer;
+        pointer-events: auto;
+      }
+      color: black;
+      text-decoration: none;
     }
   }
 }
+
+/*MEDIA QUERIES!!!!!*/

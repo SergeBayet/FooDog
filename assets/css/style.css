@@ -27,6 +27,17 @@
   font-family: "Open Sans", sans-serif;
   font-weight: bold; }
 
+.big-title {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background-color: #e7dbdb;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
 .title-article-medium {
   padding-top: 8px;
   font-size: 14px;

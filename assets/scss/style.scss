@@ -35,6 +35,18 @@ $text-font: "Open Sans", sans-serif;
   font-family: $text-font;
   font-weight: bold;
 }
+.big-title {
+  text-transform: uppercase;
+  font-family: $text-font;
+
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(231, 219, 219);
+  margin-bottom: 40px;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .title-article-medium {
   padding-top: 8px;
   font-size: 14px;

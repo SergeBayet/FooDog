@@ -324,8 +324,6 @@ h2.title-secondary-single {
     padding-left: 7px;
     padding-right: 7px;
     color: white; }
-  .follow i::before {
-    margin: 50%; }
 
 .title-secondary {
   font-family: "Open Sans", sans-serif;

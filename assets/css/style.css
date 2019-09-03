@@ -331,7 +331,6 @@ h2.title-secondary-single {
   padding-bottom: 7%; }
 
 .farmers {
-  min-width: 250px;
   background-image: url("https://media.licdn.com/dms/image/C560BAQF-VJeUHqV6Rg/company-logo_200_200/0?e=2159024400&v=beta&t=2jyIAxjd1tVfp6vHPVCWmF0Xv6C_xTxwU3R1chveDa8");
   background-position: left;
   background-size: 25px;
@@ -355,7 +354,6 @@ h2.title-secondary-single {
 
 .row .social-network-single {
   text-align: right;
-  min-width: 250px;
   border-radius: solid 40px #7677a1; }
   .row .social-network-single a {
     text-decoration: none;

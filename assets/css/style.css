@@ -216,6 +216,92 @@ img:hover {
     padding-bottom: 20px;
     font-size: small; }
 
+/*css single page*/
+.pos-f-t {
+  margin-top: 10px;
+  position: relative; }
+  .pos-f-t li {
+    list-style-type: none; }
+    .pos-f-t li a {
+      text-decoration: none;
+      color: black;
+      font-family: "Open Sans", sans-serif;
+      font-size: 15px; }
+  .pos-f-t .title-single {
+    position: absolute;
+    left: 80px;
+    font-family: "Crimson Text", serif;
+    font-weight: bolder;
+    font-size: 120%; }
+
+.digest {
+  margin-top: 30px;
+  text-align: center;
+  font-family: arial;
+  font-size: 60%; }
+  .digest .sign-up-border {
+    background-color: black;
+    padding-top: 4px;
+    padding-bottom: 5px; }
+  .digest .sign-up {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none; }
+
+.farmer {
+  text-align: right; }
+  .farmer .farmers-dog {
+    display: inline-block;
+    background-image: url("/assets/images/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative; }
+    .farmer .farmers-dog #search {
+      color: black;
+      text-decoration: none;
+      display: inline-block;
+      position: absolute;
+      top: 10px;
+      left: 50px; }
+      .farmer .farmers-dog #search:hover {
+        cursor: pointer;
+        pointer-events: auto; }
+
+.bg-dark {
+  background-color: white !important; }
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+
+hr {
+  margin: 0;
+  padding: 0; }
+
+/*MEDIA QUERIES!!!!!*/
+@media screen and (max-width: 767px) {
+  .farmer {
+    text-align: center; }
+    .farmer .farmers-dog {
+      display: inline-block;
+      background-image: url("/assets/images/logo.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 40px;
+      height: 40px; }
+    .farmer #search {
+      color: black;
+      text-decoration: none; }
+      .farmer #search:hover {
+        cursor: pointer;
+        pointer-events: auto; } }
+
+/*MEDIA QUERIES!!!!!*/
 .thumb-primary .subject {
   text-align: center; }
 

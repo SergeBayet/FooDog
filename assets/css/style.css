@@ -497,7 +497,7 @@ form.form-response textarea.text-response {
   margin-bottom: 10px; }
 
 /*name email website input modification*/
-input {
+.input-subscribe-single {
   width: 100%;
   margin-bottom: 10px;
   border: solid 1px #d6c7c7;

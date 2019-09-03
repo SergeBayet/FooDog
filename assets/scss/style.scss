@@ -1,6 +1,8 @@
-$brand-font: "Crimson Text", serif;
+$brand-font: "Crimson Text",
+serif;
 $color-text: black;
-$text-font: "Open Sans", sans-serif;
+$text-font: "Open Sans",
+sans-serif;
 
 .navbar-collapse ul li a {
   text-decoration: none;
@@ -19,15 +21,18 @@ $text-font: "Open Sans", sans-serif;
 
 .social-network {
   text-align: center;
+
   a {
     text-decoration: none;
     color: $color-text;
   }
+
   i {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
+
 .title-article-small {
   padding-top: 8px;
   font-size: 11px;
@@ -35,6 +40,7 @@ $text-font: "Open Sans", sans-serif;
   font-family: $text-font;
   font-weight: bold;
 }
+<<<<<<< HEAD
 .big-title {
   text-transform: uppercase;
   font-family: $text-font;
@@ -47,6 +53,9 @@ $text-font: "Open Sans", sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+=======
+
+>>>>>>> 8014dbbaf2d492fb8fe960c70b588dc77cce4457
 .title-article-medium {
   padding-top: 8px;
   font-size: 14px;
@@ -54,6 +63,7 @@ $text-font: "Open Sans", sans-serif;
   font-family: $text-font;
   font-weight: bold;
 }
+
 .title-article-large {
   padding-top: 8px;
   font-size: 18px;
@@ -61,14 +71,17 @@ $text-font: "Open Sans", sans-serif;
   font-family: $text-font;
   font-weight: bold;
 }
+
 .thumb-primary {
   .subject {
     text-align: center;
   }
+
   .title-article-large {
     text-align: center;
   }
 }
+
 .title-secondary {
   display: inline-block;
   padding-top: 8px;
@@ -79,12 +92,14 @@ $text-font: "Open Sans", sans-serif;
   min-width: 30%;
   text-align: left;
 }
+
 .line {
   display: inline-block;
   border-top: 2px solid gray;
   min-width: 65%;
   transform: translateY(-5px);
 }
+
 .subject {
   padding-top: 8px;
   color: red;
@@ -93,12 +108,14 @@ $text-font: "Open Sans", sans-serif;
   font-family: $text-font;
   font-weight: bold;
 }
+
 .fa-share {
   padding: 3px;
   border: 1px solid gray;
   border-radius: 50%;
   color: gray;
 }
+
 a.share {
   text-decoration: none;
   font-size: 12px;
@@ -106,12 +123,22 @@ a.share {
   text-transform: uppercase;
   font-family: $text-font;
 }
+
 .description-text {
   font-family: $brand-font;
 }
+
 img {
   width: 100%;
   height: auto;
+}
+
+.follow {
+  padding-top: 52%;
+}
+
+.advertise-single {
+  padding-top: 10%;
 }
 
 @import "serge-style", "surya-style", "maxime-style", "valene-style";

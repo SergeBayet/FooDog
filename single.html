@@ -1,34 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="assets/css/style.css"
+      media="screen, projection"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-  <link href="assets/css/style.css" media="screen, projection" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:800&display=swap" rel="stylesheet" />
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <title>FooDog</title>
+  </head>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-  </script>
-  <title>FooDog</title>
-</head>
+  <body>
+    <!--header-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-12 brand-single">
+          <!--burger menu-->
 
-<body>
-  <!--header-->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-3 col-md-3 col-12 brand-single">
+
         <span class="burger-menu"> </span>
         <span class="title-single">
           Foodog
@@ -73,101 +99,181 @@
           </div>
 
         </div>
-        <!--end of first section-->
-        <p class="article-single">
-          Health-conscious consumers are skilled at deciphering nutrition facts labels. We know to monitor our sodium
-          intake,avoid carrageenan and high fructose corn syrup, and understand that even organic, all-natural potato
-          chips are still chips.
-        </p>
-        <p class="article-single">
-          Pet food products, however, remain a mystery. Pet food marketing aims to paint a picture of health (think:
-          images of farms and fresh vegetables on a shelf-stable bag of brown kibble), and every company promises to be
-          the best option for yout dog. It's tempting to throw in the towel on label vigilance in the pet food aisle and
-          blindly believe the bags, but understanding your dog's food labels is just as important as carrefully
-          examining your own.
-        </p>
-        <p class="article-single">
-          Step one: learn to recognize the food label tricks that most pet companies are using.
-        </p>
-        <h2 class="subtitle-single">First ingredient</h2>
-        <p class="article-single">
-          The USDA defines "natural" as a product that has no artificial ingredients or added color, but doesn't account
-          for additives like antibiotics, growth hormones, or other chemicals. The term is so broad tha the FDA is still
-          struggling to come up with legal definition for it. Legally speaking, there is no required difference between
-          foods labeled "all-natural" and "natural." Natural is not necessarily organic, but organic must be considered
-          natural
+        <div class="col-lg-3 col-md-3 col-12 farmer">
+          <span class="farmers-dog"
+            ><span id="search"><i class="fa fa-search"></i></span
+          ></span>
+        </div>
+        <hr class="col-12" />
+        <!--end of the header-->
+        <div class="col-lg-3 col-md-12"></div>
+        <div class="col-lg-4 col-md-12">
+          <h3 class="subject">Nutrition</h3>
+          <h2 class="title-secondary-single">
+            The 11 dog food label tricks every owner nneds to know
+          </h2>
+          <img src="/assets/images/pug-1210025_640.jpg" />
+          <div class="row">
+            <div class="col-6">
+              <span class="farmers-dog"></span>
+              by: THE FARMER'S DOG
+            </div>
+            <div class="col-6">
+              <button type="button" class="btn btn-secondary btn-sm">
+                <i class="fa fa-comment"></i> COMMENT
+              </button>
+              <a href="#" class="share-single">share</a>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-pinterest"></i></a>
+            </div>
+          </div>
+          <!--end of first section-->
+          <p class="article-single">
+            Health-conscious consumers are skilled at deciphering nutrition
+            facts labels. We know to monitor our sodium intake,avoid carrageenan
+            and high fructose corn syrup, and understand that even organic,
+            all-natural potato chips are still chips.
+          </p>
+          <p class="article-single">
+            Pet food products, however, remain a mystery. Pet food marketing
+            aims to paint a picture of health (think: images of farms and fresh
+            vegetables on a shelf-stable bag of brown kibble), and every company
+            promises to be the best option for yout dog. It's tempting to throw
+            in the towel on label vigilance in the pet food aisle and blindly
+            believe the bags, but understanding your dog's food labels is just
+            as important as carrefully examining your own.
+          </p>
+          <p class="article-single">
+            Step one: learn to recognize the food label tricks that most pet
+            companies are using.
+          </p>
+          <h2 class="subtitle-single">First ingredient</h2>
+          <p class="article-single">
+            The USDA defines "natural" as a product that has no artificial
+            ingredients or added color, but doesn't account for additives like
+            antibiotics, growth hormones, or other chemicals. The term is so
+            broad tha the FDA is still struggling to come up with legal
+            definition for it. Legally speaking, there is no required difference
+            between foods labeled "all-natural" and "natural." Natural is not
+            necessarily organic, but organic must be considered natural
+          </p>
+          <h2 class="subtitle-single">Gourmet</h2>
+          <p class="article-single">
+            We associate the term with fresh veggies and farm-to-table dining,
+            but there are no legal regulations that determine when this term can
+            be used on food labels.
+          </p>
+          <h2 class="subtitle-single">Grain-free</h2>
+          <p class="article-single">
+            A product sans grain is technically free of corn, soy, wheat,
+            barley, and oats. Grain-free products, howecer, are not necessarily
+            low-carb; in reality, grain-free dogs foods tend to have just as
+            many carbohydrates as dog food that is not grain-free, especially
+            when high-starch items, like potatoes, are used to replace grain.
+          </p>
 
-        </p>
-        <h2 class="subtitle-single">Gourmet</h2>
-        <p class="article-single">
-          We associate the term with fresh veggies and farm-to-table dining, but there are no legal regulations that
-          determine when this term can be used on food labels.
-        </p>
-        <h2 class="subtitle-single">Grain-free</h2>
-        <p class="article-single">
-          A product sans grain is technically free of corn, soy, wheat, barley, and oats. Grain-free products, howecer,
-          are not necessarily low-carb; in reality, grain-free dogs foods tend to have just as many carbohydrates as dog
-          food that is not grain-free, especially when high-starch items, like potatoes, are used to replace grain.
           <h2 class="subtitle-single">Cage-free and/or free-range</h2>
           <p class="article-single">
-            "Cage-free" is exactly what it sounds like: poultry that hasn't been raised in a cage. But don't be
-            fooled-cage-free isn't as free or spacious as it sounds. Chickens raised for meat (even those that are
-            "cage-free") are typically kept in tight, indoor spaces that are cramped and uncomfortable. By USDA
-            definition,"cage-free" and "free-range" only require that animals have had acces to the outside.
-            <h2 class="subtitle-single">Grass-fed</h2>
-            <p class="article-single">
-              Though we might often associate "grass-fed" with "free-range", one does not guarantee the other.
-              Technically speaking, cows can be grass-fed and still contained, only let out to graze for short periods
-              at a time. Though the USDA ragulates how the term is used on labels, it does not regulate how, in practice
-              the "grass-fed" animals are actually fed.
-            </p>
-            <p class="article-single">
-              In the end, we recommend feeding only from the best dog food companies youn know you can trust, and
-              ideally choosing fresh food whenever possible. Stickto foods you can see and the whole feeding process
-              becomes a lot less tricky
-            </p>
-            <p class="article-signature-single">Image: @jenikrauze</p>
-            <div class="network-article">
-              <a href="#" class="share-single">share</a>
-              <button type="button" class="btn btn-secondary btn-comment btn-sm">
-                <i class="fa fa-comment"></i> 0 COMMENT
-              </button>
-              <button type="button" class="btn btn-secondary btn-facebook btn-sm">
-                <i class="fa fa-facebook"></i> SHARE
-              </button>
-              <button type="button" class="btn btn-secondary btn-twitter btn-sm">
-                <i class="fa fa-twitter"></i> TWEET
-              </button>
-              <button type="button" class="btn btn-secondary btn-pinterest btn-sm">
-                <i class="fa fa-pinterest"></i> PIN IT!
-              </button>
-            </div>
-            <div class="subscribe-single">
-              <h2 class="title-subscribe-single">
-                Subscribe to The Digest Newsletter
-              </h2>
-              <p class="subtitle-subscribe-single">
-                Get health an wellness tips about your dog delivered to your inbox
-              </p>
-              <form action="" class="form-subscribe-single">
-                <input class="input-subscribe-single" type="text" placeholder="your email" />
-                <span class="sign-up-subscribe-single">sign-up</span>
-              </form>
-            </div>
-            <!--end of second section-->
-            <div class="row">
-              <div class="col-6 previous-article">
-                <a href="#">&lt; PREVIOUS ARTICLE</a>
-                <h2 class="previous-article-title">
-                  SUPERFOODS IN YOUR KITCHEN: PUMPKINS FOR DOGS
-                </h2>
-              </div>
+            "Cage-free" is exactly what it sounds like: poultry that hasn't been
+            raised in a cage. But don't be fooled-cage-free isn't as free or
+            spacious as it sounds. Chickens raised for meat (even those that are
+            "cage-free") are typically kept in tight, indoor spaces that are
+            cramped and uncomfortable. By USDA definition,"cage-free" and
+            "free-range" only require that animals have had acces to the
+            outside.
+          </p>
 
-              <div class="col-6 next-article"></div>
+          <h2 class="subtitle-single">Grass-fed</h2>
+          <p class="article-single">
+            Though we might often associate "grass-fed" with "free-range", one
+            does not guarantee the other. Technically speaking, cows can be
+            grass-fed and still contained, only let out to graze for short
+            periods at a time. Though the USDA ragulates how the term is used on
+            labels, it does not regulate how, in practice the "grass-fed"
+            animals are actually fed.
+          </p>
+          <p class="article-single">
+            In the end, we recommend feeding only from the best dog food
+            companies youn know you can trust, and ideally choosing fresh food
+            whenever possible. Stickto foods you can see and the whole feeding
+            process becomes a lot less tricky
+          </p>
+          <p class="article-signature-single">Image: @jenikrauze</p>
+          <div class="network-article">
+            <a href="#" class="share-single">share</a>
+            <button type="button" class="btn btn-secondary btn-comment btn-sm">
+              <i class="fa fa-comment"></i> 0 COMMENT
+            </button>
+            <button type="button" class="btn btn-secondary btn-facebook btn-sm">
+              <i class="fa fa-facebook"></i> SHARE
+            </button>
+            <button type="button" class="btn btn-secondary btn-twitter btn-sm">
+              <i class="fa fa-twitter"></i> TWEET
+            </button>
+            <button
+              type="button"
+              class="btn btn-secondary btn-pinterest btn-sm"
+            >
+              <i class="fa fa-pinterest"></i> PIN IT!
+            </button>
+          </div>
+          <div class="subscribe-single">
+            <h2 class="title-subscribe-single">
+              Subscribe to The Digest Newsletter
+            </h2>
+            <p class="subtitle-subscribe-single">
+              Get health an wellness tips about your dog delivered to your inbox
+            </p>
+            <form action="" class="form-subscribe-single">
+              <input
+                class="input-subscribe-single"
+                type="text"
+                placeholder="your email"
+              />
+              <span class="sign-up-subscribe-single">sign-up</span>
+            </form>
+          </div>
+          <!--end of second section-->
+          <div class="row">
+            <div class="col-6 previous-article">
+              <a href="#">&lt; PREVIOUS ARTICLE</a>
+              <h2 class="previous-article-title">
+                SUPERFOODS IN YOUR KITCHEN: PUMPKINS FOR DOGS
+              </h2>
+            </div>
+
+            <div class="col-6 next-article"></div>
+          </div>
+          <div class="row">
+            <div class="col-2">
+              <span class="farmers-dog"></span>
+            </div>
+            <div class="col-10">
+              <h2 class="title-rubric">
+                The Farmer's Dog
+              </h2>
+              <p class="text-rubric">
+                The Farmer's Dog is the leading direct-to-consumer, fresh pet
+                food company, offering customers and their pets the highest
+                quality and convenience without retail markups. All human-grade
+                meal plans are made to order, designed by veterinarians, and
+                personalized to provide the ideal nutritional balance for every
+                dog.Get started today at https://thefarmersdog.com
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 title-alsolike">You might also like</div>
+            <div class="col-4">
+              <img src="" alt="" />
+              <h2 class="title-image">
+                SUPERFOODS IN YOUR KITCHEN: PUMPKINS FOR DOGS
+              </h2>
             </div>
             <div class="row">
               <div class="col-2">
-                <span class="farmers-dog"></span>
+                <span class="farmers-dog"><img src="/assets/images/farmers-dogs" alt=""></span>
               </div>
               <div class="col-10">
                 <h2 class="title-rubric">
@@ -184,37 +290,32 @@
             <div class="row">
               <div class="col-12 title-alsolike">You might also like</div>
               <div class="col-4">
-                <img src="" alt="" />
+                <img src="/assets/images/yorkshire1.jpg" alt="" />
                 <h2 class="title-image">SUPERFOODS IN YOUR KITCHEN: PUMPKINS FOR DOGS</h2>
               </div>
               <div class="col-4">
-                <img src="" alt="" />
+                <img src="/assets/images/chien1.jpg" alt="" />
                 <h2 class="title-image">THE TRUTH ABOUT TABLE SCRAPS FOR DOGS</h2>
               </div>
               <div class="col-4">
-                <img src="" alt="" />
+                <img src="/assets/images/yorkshire3.jpg" alt="" />
                 <h2 class="title-image"> SUPERFOODS IN YOUR KITCHEN: APPLE CIDER VINEGAR FOR DOGS</h2>
               </div>
             </div>
-            <hr />
-            <h2 class="title-response">LEAVE A RESPONSE</h2>
-            <form action="" class="form-response">
-              <textarea class="text-response" name="story">
+          </div>
+          <hr />
+          <h2 class="title-response">LEAVE A RESPONSE</h2>
+          <form action="" class="form-response">
+            <textarea class="text-response" name="story">
             Write your comment here...
             </textarea>
-            </form>
+          </form>
 
-            <div class="row">
-              <div class="col-12 col-md-4 col-lg-4">
-                <input type="text" placeholder="Name..." />
-              </div>
-              <div class="col-12 col-md-4 col-lg-4">
-                <input type="text" placeholder="Email..." />
-              </div>
-              <div class="col-12 col-md-4 col-lg-4">
-                <input type="text" placeholder="Website..." />
-              </div>
+          <div class="row">
+            <div class="col-12 col-md-4 col-lg-4">
+              <input type="text" placeholder="Name..." />
             </div>
+<<<<<<< HEAD
             <button type="button" class="btn btn-secondary btn-sm">
               LEAVE A COMMENT
             </button>
@@ -231,117 +332,202 @@
         </div>
         <div class="advertise-single">
           <img src="/assets/images/girl-3706740_640.jpg" alt="" />
+=======
+            <div class="col-12 col-md-4 col-lg-4">
+              <input type="text" placeholder="Email..." />
+            </div>
+            <div class="col-12 col-md-4 col-lg-4">
+              <input type="text" placeholder="Website..." />
+            </div>
+          </div>
+          <button type="button" class="btn btn-secondary btn-sm">
+            LEAVE A COMMENT
+          </button>
+>>>>>>> f5552b0eee14cdd9b23aff6a6bb78aa4edd9ef90
         </div>
-      </div>
-      <!-- FOOTER -->
-      <div class="footer-container col-12">
-        <div class="row">
-          <div class="col-12 footer offset-lg-2 col-lg-8">
-            <div class="row">
-              <div class="categories col-12 col-md-3 col-lg-4">
+        <!-- col-4 Container du milieu-->
 
-                <ul>
-                  <li>Community</li>
-                  <li>Featured</li>
-                  <li>Lifestyle</li>
-                  <li>Nutrition</li>
-                  <li>Wellness</li>
-                </ul>
-              </div>
+        <div class="offset-lg-0 col-lg-2  offset-md-3 col-md-6  col-12">
+          <div class="follow">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-pinterest"></i></a>
+          </div>
+          <div class="advertise-single">
+            <img src="/assets/images/girl-3706740_640.jpg" alt="" />
+          </div>
+        </div>
+        <!-- FOOTER -->
+        <div class="footer-container col-12">
+          <div class="row">
+            <div class="col-12 footer offset-lg-2 col-lg-8">
+              <div class="row">
+                <div class="categories col-12 col-md-3 col-lg-4">
+                  <ul>
+                    <li>Community</li>
+                    <li>Featured</li>
+                    <li>Lifestyle</li>
+                    <li>Nutrition</li>
+                    <li>Wellness</li>
+                  </ul>
+                </div>
 
-              <div class="popular-posts col-12 col-md-4 col-lg-4">
-
-                <div class="row">
-                  <div class="col-12">
-                    <div class="row">
-                      <div class="col-4">
-                        <img src="/assets/images/dog-843800_640.jpg" alt="dog" />
+                <div class="popular-posts col-12 col-md-4 col-lg-4">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="row">
+                        <div class="col-4">
+                          <img
+                            src="/assets/images/dog-843800_640.jpg"
+                            alt="dog"
+                          />
+                        </div>
+                        <div class="col-8">
+                          <p class="description-text">
+                            5 Reasons Your Dog is Vomiting
+                          </p>
+                        </div>
                       </div>
-                      <div class="col-8">
-                        <p class="description-text">
-                          5 Reasons Your Dog is Vomiting
-                        </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="row">
+                        <div class="col-4">
+                          <img
+                            src="/assets/images/dogs-4429513_640.jpg"
+                            alt="dog"
+                          />
+                        </div>
+                        <div class="col-8">
+                          <p class="description-text">
+                            Top 14 Fresh Snacks for Dogs
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="row">
+                        <div class="col-4">
+                          <img
+                            src="/assets/images/fantasy-2890925_640.jpg"
+                            alt="dog"
+                          />
+                        </div>
+                        <div class="col-8">
+                          <p class="description-text">
+                            Why Skinny Dogs Live Longer
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-12">
-                    <div class="row">
-                      <div class="col-4">
-                        <img src="/assets/images/dogs-4429513_640.jpg" alt="dog" />
-                      </div>
-                      <div class="col-8">
-                        <p class="description-text">
-                          Top 14 Fresh Snacks for Dogs
-                        </p>
-                      </div>
+
+                <div class="instagram col-12 col-md-5 col-lg-4">
+                  <div class="row">
+                    <div class="col-4">
+                      <img
+                        src="/assets/images/reh-pinscher-4119263_640.jpg"
+                        alt="dog"
+                      />
+                    </div>
+                    <div class="col-4">
+                      <img
+                        src="/assets/images/wolf-2864647_640.jpg"
+                        alt="dog"
+                      />
+                    </div>
+                    <div class="col-4">
+                      <img
+                        src="/assets/images/massage-1790063_640.jpg"
+                        alt="dog"
+                      />
                     </div>
                   </div>
-                </div>
-                <div class="row">
-                  <div class="col-12">
-                    <div class="row">
-                      <div class="col-4">
-                        <img src="/assets/images/fantasy-2890925_640.jpg" alt="dog" />
-                      </div>
-                      <div class="col-8">
-                        <p class="description-text">
-                          Why Skinny Dogs Live Longer
-                        </p>
-                      </div>
+                  <div class="row">
+                    <div class="col-4">
+                      <img
+                        src="/assets/images/adorable-1850276_640.jpg"
+                        alt="dog"
+                      />
+                    </div>
+                    <div class="col-4">
+                      <img src="/assets/images/pug-1210025_640.jpg" alt="dog" />
+                    </div>
+                    <div class="col-4">
+                      <img src="/assets/images/pug-690566_640.jpg" alt="dog" />
                     </div>
                   </div>
-                </div>
-              </div>
-
-              <div class="instagram col-12 col-md-5 col-lg-4">
-
-                <div class="row">
-                  <div class="col-4">
-                    <img src="/assets/images/reh-pinscher-4119263_640.jpg" alt="dog" />
-                  </div>
-                  <div class="col-4">
-                    <img src="/assets/images/wolf-2864647_640.jpg" alt="dog" />
-                  </div>
-                  <div class="col-4">
-                    <img src="/assets/images/massage-1790063_640.jpg" alt="dog" />
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-4">
-                    <img src="/assets/images/adorable-1850276_640.jpg" alt="dog" />
-                  </div>
-                  <div class="col-4">
-                    <img src="/assets/images/pug-1210025_640.jpg" alt="dog" />
-                  </div>
-                  <div class="col-4">
-                    <img src="/assets/images/pug-690566_640.jpg" alt="dog" />
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-4">
-                    <img src="/assets/images/pug-801826_1280.jpg" alt="dog" />
-                  </div>
-                  <div class="col-4">
-                    <img src="/assets/images/puppy-1118584_640.jpg" alt="dog" />
-                  </div>
-                  <div class="col-4">
-                    <img src="/assets/images/puppy-1893621_640.jpg" alt="dog" />
+                  <div class="row">
+                    <div class="col-4">
+                      <img src="/assets/images/pug-801826_1280.jpg" alt="dog" />
+                    </div>
+                    <div class="col-4">
+                      <img
+                        src="/assets/images/puppy-1118584_640.jpg"
+                        alt="dog"
+                      />
+                    </div>
+                    <div class="col-4">
+                      <img
+                        src="/assets/images/puppy-1893621_640.jpg"
+                        alt="dog"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="network-footer-container copyright col-12">
-
-        Copyright 2019. BeCode Team
-
+        <div class="network-footer-container copyright col-12">
+          Copyright 2019. BeCode Team
+        </div>
       </div>
     </div>
-  </div>
-</body>
-
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Search</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <input type="text" value="" placeholder="Which dog?" />
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">
+              Ok
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    $(document).ready(function() {
+      $("#search").click(function() {
+        $("#exampleModal").modal();
+      });
+    });
+  </script>
 </html>

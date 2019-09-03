@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .navbar-collapse ul li a {
   text-decoration: none;
   color: black;
@@ -221,6 +222,92 @@ img:hover {
     padding-bottom: 20px;
     font-size: small; }
 
+/*css single page*/
+.pos-f-t {
+  margin-top: 10px;
+  position: relative; }
+  .pos-f-t li {
+    list-style-type: none; }
+    .pos-f-t li a {
+      text-decoration: none;
+      color: black;
+      font-family: "Open Sans", sans-serif;
+      font-size: 15px; }
+  .pos-f-t .title-single {
+    position: absolute;
+    left: 80px;
+    font-family: "Crimson Text", serif;
+    font-weight: bolder;
+    font-size: 120%; }
+
+.digest {
+  margin-top: 30px;
+  text-align: center;
+  font-family: arial;
+  font-size: 60%; }
+  .digest .sign-up-border {
+    background-color: black;
+    padding-top: 4px;
+    padding-bottom: 5px; }
+  .digest .sign-up {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none; }
+
+.farmer {
+  text-align: right; }
+  .farmer .farmers-dog {
+    display: inline-block;
+    background-image: url("/assets/images/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative; }
+    .farmer .farmers-dog #search {
+      color: black;
+      text-decoration: none;
+      display: inline-block;
+      position: absolute;
+      top: 10px;
+      left: 50px; }
+      .farmer .farmers-dog #search:hover {
+        cursor: pointer;
+        pointer-events: auto; }
+
+.bg-dark {
+  background-color: white !important; }
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+
+hr {
+  margin: 0;
+  padding: 0; }
+
+/*MEDIA QUERIES!!!!!*/
+@media screen and (max-width: 767px) {
+  .farmer {
+    text-align: center; }
+    .farmer .farmers-dog {
+      display: inline-block;
+      background-image: url("/assets/images/logo.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 40px;
+      height: 40px; }
+    .farmer #search {
+      color: black;
+      text-decoration: none; }
+      .farmer #search:hover {
+        cursor: pointer;
+        pointer-events: auto; } }
+
+/*MEDIA QUERIES!!!!!*/
 .thumb-primary .subject {
   text-align: center; }
 
@@ -386,3 +473,135 @@ h2.title-secondary-single {
 .advertise {
   width: 110%;
   margin-top: 15px; }
+
+/* single page article mise en forme*/
+p.article-single {
+  text-align: left;
+  margin-top: 5px;
+  font-family: "Crimson Text", serif;
+  font-size: 15px; }
+
+h2.subtitle-single {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: bolder; }
+
+.network-article {
+  background: transparent;
+  text-transform: uppercase;
+  font-family: "Crimson Text", serif;
+  font-size: 10px; }
+  .network-article button {
+    margin: 4px; }
+  .network-article :nth-child(1):before a {
+    background: transparent;
+    font-size: 12px; }
+  .network-article :nth-child(2) {
+    background: #413e3e; }
+    .network-article :nth-child(2) a {
+      background: transparent;
+      font-size: 12px; }
+  .network-article :nth-child(3) {
+    background: #7677a1; }
+    .network-article :nth-child(3) a {
+      background: transparent;
+      font-size: 12px; }
+  .network-article :nth-child(4) {
+    background: #4fc5e2; }
+  .network-article :nth-child(5) {
+    background: red; }
+
+/*Subscribe to The Digest Newslette*/
+h2 {
+  /*end of second section*/ }
+  h2.previous-article-title {
+    text-align: left;
+    width: 150%;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: bold; }
+  h2.title-rubric {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: bold; }
+  h2.title-subscribe-single {
+    text-align: center;
+    font-family: "Crimson Text", serif;
+    font-size: 30px; }
+  h2.title-response {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px; }
+
+p.subtitle-subscribe-single {
+  text-align: center; }
+
+/*partie entrée email*/
+form.form-subscribe-single {
+  text-align: center;
+  margin: 15px; }
+
+.previous-article a {
+  color: grey;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 20px;
+  opacity: 0.5; }
+
+span.sign-up-subscribe-single {
+  background: darksalmon;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px; }
+
+input.input-subscribe-single {
+  padding: 5px;
+  border-right: none;
+  width: 60%; }
+
+/*texte farmers dogs fin de section*/
+p.text-rubric {
+  margin-left: 20px;
+  margin-bottom: 50px;
+  opacity: 0.5; }
+
+/*image farmer dogs oranges*/
+.col-2 :nth-child(1) {
+  width: 80px;
+  height: 80px; }
+
+.title-alsolike {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold; }
+
+/*fin de section avant footer image + titre*/
+.col-4 img {
+  width: 150px;
+  height: 150px;
+  margin: 15px; }
+
+.title-image {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px; }
+
+/*entree " ecrire votre commentaire"*/
+form.form-response textarea.text-response {
+  width: 100%;
+  height: 100px;
+  border: solid 1px #d6c7c7;
+  color: #d6c7c7;
+  margin-bottom: 10px; }
+
+/*name email website input modification*/
+input {
+  width: 100%;
+  margin-bottom: 10px;
+  border: solid 1px #d6c7c7;
+  color: #d6c7c7; }
+
+button.btn-secondary {
+  background: black;
+  font-size: 8px; }

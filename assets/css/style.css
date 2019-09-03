@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .navbar-collapse ul li a {
   text-decoration: none;
   color: black;
@@ -306,7 +307,7 @@ h2.subtitle-single {
   font-family: "Crimson Text", serif;
   font-size: 10px; }
   .network-article button {
-    margin: 8px; }
+    margin: 4px; }
   .network-article :nth-child(1):before a {
     background: transparent;
     font-size: 12px; }
@@ -326,23 +327,46 @@ h2.subtitle-single {
     background: red; }
 
 /*Subscribe to The Digest Newslette*/
-h2.title-subscribe-single {
-  text-align: center;
-  font-family: "Crimson Text", serif;
-  font-size: 30px; }
+h2 {
+  /*end of second section*/ }
+  h2.previous-article-title {
+    text-align: left;
+    width: 150%;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: bold; }
+  h2.title-rubric {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: bold; }
+  h2.title-subscribe-single {
+    text-align: center;
+    font-family: "Crimson Text", serif;
+    font-size: 30px; }
+  h2.title-response {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px; }
 
 p.subtitle-subscribe-single {
   text-align: center; }
 
+/*partie entrée email*/
 form.form-subscribe-single {
-  text-align: center; }
+  text-align: center;
+  margin: 15px; }
 
-form.form-subscribe-single {
-  background: darksalmon; }
+.previous-article a {
+  color: grey;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 20px;
+  opacity: 0.5; }
 
 span.sign-up-subscribe-single {
-  padding: 19px;
-  color: white;
+  background: darksalmon;
+  padding: 15px;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 10px; }
@@ -350,4 +374,49 @@ span.sign-up-subscribe-single {
 input.input-subscribe-single {
   padding: 5px;
   border-right: none;
-  width: 81%; }
+  width: 60%; }
+
+/*texte farmers dogs fin de section*/
+p.text-rubric {
+  margin-left: 20px;
+  margin-bottom: 50px;
+  opacity: 0.5; }
+
+/*image farmer dogs oranges*/
+.col-2 :nth-child(1) {
+  width: 80px;
+  height: 80px; }
+
+.title-alsolike {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold; }
+
+/*fin de section avant footer image + titre*/
+.col-4 img {
+  width: 150px;
+  height: 150px;
+  margin: 15px; }
+
+.title-image {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px; }
+
+/*entree " ecrire votre commentaire"*/
+form.form-response textarea.text-response {
+  width: 100%;
+  height: 100px;
+  border: solid 1px #d6c7c7;
+  color: #d6c7c7;
+  margin-bottom: 10px; }
+
+/*name email website input modification*/
+input {
+  width: 100%;
+  margin-bottom: 10px;
+  border: solid 1px #d6c7c7;
+  color: #d6c7c7; }
+
+button.btn-secondary {
+  background: black;
+  font-size: 8px; }

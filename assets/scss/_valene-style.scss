@@ -257,16 +257,6 @@ p.text-rubric {
     font-size: 12px;
     font-weight: bold;
 }
-
-/*fin de section avant footer image + titre*/
-.col-4 {
-    img {
-        width: 150px;
-        height: 150px;
-        margin: 15px;
-    }
-}
-
 .title-image {
     font-family: $text-font;
     font-size: 10px;
@@ -285,7 +275,7 @@ form.form-response {
 
 /*name email website input modification*/
 .inputemail {
-    width: 70%;
+    width: 80%;
     margin-bottom: 10px;
     border: solid 1px rgb(214, 199, 199);
     color: rgb(214, 199, 199);

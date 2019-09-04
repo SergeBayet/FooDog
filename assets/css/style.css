@@ -587,12 +587,6 @@ p.text-rubric {
   font-size: 12px;
   font-weight: bold; }
 
-/*fin de section avant footer image + titre*/
-.col-4 img {
-  width: 150px;
-  height: 150px;
-  margin: 15px; }
-
 .title-image {
   font-family: "Open Sans", sans-serif;
   font-size: 10px; }
@@ -607,7 +601,7 @@ form.form-response textarea.text-response {
 
 /*name email website input modification*/
 .inputemail {
-  width: 70%;
+  width: 80%;
   margin-bottom: 10px;
   border: solid 1px #d6c7c7;
   color: #d6c7c7; }

@@ -592,8 +592,8 @@ form.form-response textarea.text-response {
   margin-bottom: 10px; }
 
 /*name email website input modification*/
-.input-subscribe-single {
-  width: 100%;
+.inputemail {
+  width: 70%;
   margin-bottom: 10px;
   border: solid 1px #d6c7c7;
   color: #d6c7c7; }
@@ -601,3 +601,6 @@ form.form-response textarea.text-response {
 button.btn-secondary {
   background: black;
   font-size: 8px; }
+
+.nav-emai {
+  display: none; }

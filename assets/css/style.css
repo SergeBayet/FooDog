@@ -335,21 +335,21 @@ hr {
 .latest-posts {
   text-align: center; }
 
-h3.subject-single {
+h3.subject {
   text-align: center; }
 
 h2.title-secondary-single {
   text-align: center; }
 
-.col-lg-4 img {
-  padding-bottom: 7%; }
+.title-image-bis img {
+  padding-bottom: 30px; }
 
 .farmers {
   background-image: url("https://media.licdn.com/dms/image/C560BAQF-VJeUHqV6Rg/company-logo_200_200/0?e=2159024400&v=beta&t=2jyIAxjd1tVfp6vHPVCWmF0Xv6C_xTxwU3R1chveDa8");
   background-position: left;
   background-size: 25px;
   background-repeat: no-repeat; }
-  .farmers .farmers-dog {
+  .farmers .farmers-dog-bis {
     padding-left: 15px;
     text-align: left;
     height: 35px;
@@ -422,7 +422,12 @@ h2.title-secondary-single {
     padding-bottom: 4px;
     padding-left: 7px;
     padding-right: 7px;
-    color: white; }
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: -15px; }
+    .follow a i {
+      margin-left: -1px; }
 
 .title-secondary {
   font-family: "Open Sans", sans-serif;

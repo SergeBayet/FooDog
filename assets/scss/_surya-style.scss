@@ -92,12 +92,16 @@ $bgc-network-footer-container: #333639;
   position: relative;
   li {
     list-style-type: none;
+
     a {
       text-decoration: none;
-      color: black;
+      color: rgb(133, 133, 133);
       font: {
         family: $text-font;
         size: 15px;
+      }
+      &:hover {
+        color: rgb(0, 0, 0);
       }
     }
   }
@@ -122,6 +126,9 @@ $bgc-network-footer-container: #333639;
     background-color: black;
     padding-top: 4px;
     padding-bottom: 5px;
+    &:hover {
+      background-color: rgb(139, 136, 136);
+    }
   }
   .sign-up {
     padding-left: 10px;

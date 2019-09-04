@@ -230,9 +230,11 @@ img:hover {
     list-style-type: none; }
     .pos-f-t li a {
       text-decoration: none;
-      color: black;
+      color: #858585;
       font-family: "Open Sans", sans-serif;
       font-size: 15px; }
+      .pos-f-t li a:hover {
+        color: black; }
   .pos-f-t .title-single {
     position: absolute;
     left: 80px;
@@ -249,6 +251,8 @@ img:hover {
     background-color: black;
     padding-top: 4px;
     padding-bottom: 5px; }
+    .digest .sign-up-border:hover {
+      background-color: #8b8888; }
   .digest .sign-up {
     padding-left: 10px;
     padding-right: 10px;

@@ -11,3 +11,7 @@
 
 - Bootstrap
 - SASS
+
+## Difficultés rencontrées
+
+- Git

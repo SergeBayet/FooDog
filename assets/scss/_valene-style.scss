@@ -14,6 +14,7 @@
     border-right: solid 1px rgb(184, 182, 182);
     width: 35%;
     margin: 10px;
+
     font: {
         family: $text-font;
         size: 9px;
@@ -37,43 +38,54 @@
     margin: 0px;
     padding: 0px;
     font-size: 1px;
+
     font: {
         family: $brand-font;
         weight: bold;
     }
-     :nth-child(1) {
+
+    :nth-child(1) {
         background: rgb(168, 194, 235);
+
         a {
             background: transparent;
             font-size: 12px;
         }
     }
-     :nth-child(2) {
+
+    :nth-child(2) {
         background: rgb(82, 209, 226);
+
         a {
             background: transparent;
             font-size: 12px;
         }
     }
-     :nth-child(3) {
+
+    :nth-child(3) {
         background: rgb(118, 119, 161);
+
         a {
             background: transparent;
             font-size: 12px;
         }
     }
+
     font: {
         family: $brand-font;
         size: 15px;
     }
+
     a {
         color: white;
         background: transparent;
     }
+
     /*section span push right mise en page car dans une div diff*/
     span.push-right {
         background: transparent;
     }
+
     li {
         margin: 3px;
         padding: 8px;
@@ -94,6 +106,7 @@
 p.article-single {
     text-align: left;
     margin-top: 5px;
+
     font: {
         family: $brand-font;
         size: 15px;
@@ -111,69 +124,82 @@ h2.subtitle-single {
 .network-article {
     background: transparent;
     text-transform: uppercase;
+
     button {
         margin: 4px;
     }
+
     font: {
         family: $brand-font;
         size: 10px;
     }
-     :nth-child(1):before {
+
+    :nth-child(1):before {
         a {
             background: transparent;
             font-size: 12px;
         }
     }
-     :nth-child(2) {
+
+    :nth-child(2) {
         background: rgb(65, 62, 62);
+
         a {
             background: transparent;
             font-size: 12px;
         }
     }
-     :nth-child(3) {
+
+    :nth-child(3) {
         background: rgb(118, 119, 161);
+
         a {
             background: transparent;
             font-size: 12px;
         }
     }
-     :nth-child(4) {
+
+    :nth-child(4) {
         background: rgb(79, 197, 226);
     }
-     :nth-child(5) {
+
+    :nth-child(5) {
         background: red;
     }
 }
 
-
 /*Subscribe to The Digest Newslette*/
-
 h2 {
     &.previous-article-title {
         text-align: left;
         width: 150%;
         margin-bottom: 80px;
         margin-top: 50px;
+
         font: {
             family: $text-font;
             size: 15px;
             weight: bold;
         }
     }
+
     /*end of second section*/
+
     &.title-rubric {
         font-family: $text-font;
         font-size: 15px;
         font-weight: bold;
     }
+
     &.title-subscribe-single {
         text-align: center;
+
         font: {
             family: $brand-font;
             size: 30px;
         }
     }
+
     &.title-response {
         font-family: $text-font;
         font-size: 12px;
@@ -185,10 +211,7 @@ p {
         text-align: center;
     }
 }
-
-
 /*partie entrée email*/
-
 form.form-subscribe-single {
     text-align: center;
     margin: 15px;
@@ -215,21 +238,15 @@ input.input-subscribe-single {
     border-right: none;
     width: 60%;
 }
-
-
 /*texte farmers dogs fin de section*/
-
 p.text-rubric {
     margin-left: 20px;
     margin-bottom: 50px;
     opacity: 0.5;
 }
-
-
 /*image farmer dogs oranges*/
-
 .col-2 {
-     :nth-child(1) {
+    :nth-child(1) {
         width: 80px;
         height: 80px;
     }
@@ -241,9 +258,7 @@ p.text-rubric {
     font-weight: bold;
 }
 
-
 /*fin de section avant footer image + titre*/
-
 .col-4 {
     img {
         width: 150px;
@@ -257,9 +272,7 @@ p.text-rubric {
     font-size: 10px;
 }
 
-
 /*entree " ecrire votre commentaire"*/
-
 form.form-response {
     textarea.text-response {
         width: 100%;
@@ -270,9 +283,7 @@ form.form-response {
     }
 }
 
-
 /*name email website input modification*/
-
 .inputemail {
     width: 70%;
     margin-bottom: 10px;

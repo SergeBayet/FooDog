@@ -22,7 +22,7 @@
 }
 
 h3 {
-    &.subject-single {
+    &.subject {
         text-align: center;
     }
 }
@@ -33,32 +33,28 @@ h2 {
     }
 }
 
-.col-lg-4 {
+.title-image-bis {
     img {
-        padding-bottom: 7%;
+        padding-bottom: 30px;
     }
 }
 
 .farmers {
-
-
-
     background-image: url("https://media.licdn.com/dms/image/C560BAQF-VJeUHqV6Rg/company-logo_200_200/0?e=2159024400&v=beta&t=2jyIAxjd1tVfp6vHPVCWmF0Xv6C_xTxwU3R1chveDa8");
     background-position: left;
     background-size: 25px;
     background-repeat: no-repeat;
 
-    .farmers-dog {
+
+    .farmers-dog-bis {
         padding-left: 15px;
         text-align: left;
         height: 35px;
         font-size: xx-small;
-
     }
 }
 
 .row {
-
     .icons-row {
         padding-left: 3%;
         padding-right: 3px;
@@ -69,9 +65,7 @@ h2 {
         border: opacity($color: gray);
         text-align: left;
         width: 100%;
-
     }
-
 
     .social-network-single {
         text-align: right;
@@ -104,7 +98,6 @@ h2 {
                     padding-top: 4px;
                     vertical-align: middle;
                     text-align: center;
-
                 }
 
                 &.fa-pinterest {
@@ -140,6 +133,7 @@ h2 {
     font-size: x-small;
 
 
+
     a {
         display: inline-block;
         background-color: gray;
@@ -151,8 +145,15 @@ h2 {
         padding-left: 7px;
         padding-right: 7px;
         color: white;
+        text-align: center;
+        vertical-align: middle;
+        margin-top: -15px;
 
+
+        i {
+            margin-left: -1px;
+
+
+        }
     }
-
-
 }

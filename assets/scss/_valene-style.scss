@@ -1,0 +1,292 @@
+.title-secondary {
+    font: {
+        family: $text-font;
+        size: 15px;
+    }
+}
+
+
+/*police, taille des titres en orange de la classe featured post*/
+
+.featured-post h3.subject {
+    color: rgb(241, 144, 109);
+    text-transform: uppercase;
+    border-right: solid 1px rgb(184, 182, 182);
+    width: 35%;
+    margin: 10px;
+
+    font: {
+        family: $text-font;
+        size: 9px;
+    }
+}
+
+
+/*taille image de la classe featured post*/
+
+.featured-post img {
+    width: 100%;
+    margin: 5px;
+}
+
+
+/*mise en page liste a puce reseau sociaux*/
+
+.network-links {
+    width: 110%;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1px;
+
+    font: {
+        family: $brand-font;
+        weight: bold;
+    }
+
+    :nth-child(1) {
+        background: rgb(168, 194, 235);
+
+        a {
+            background: transparent;
+            font-size: 12px;
+        }
+    }
+
+    :nth-child(2) {
+        background: rgb(82, 209, 226);
+
+        a {
+            background: transparent;
+            font-size: 12px;
+        }
+    }
+
+    :nth-child(3) {
+        background: rgb(118, 119, 161);
+
+        a {
+            background: transparent;
+            font-size: 12px;
+        }
+    }
+
+    font: {
+        family: $brand-font;
+        size: 15px;
+    }
+
+    a {
+        color: white;
+        background: transparent;
+    }
+
+    /*section span push right mise en page car dans une div diff*/
+    span.push-right {
+        background: transparent;
+    }
+
+    li {
+        margin: 3px;
+        padding: 8px;
+    }
+}
+
+
+/*publiciter */
+
+.advertise {
+    width: 110%;
+    margin-top: 15px;
+}
+
+
+/* single page article mise en forme*/
+
+p.article-single {
+    text-align: left;
+    margin-top: 5px;
+
+    font: {
+        family: $brand-font;
+        size: 15px;
+    }
+}
+
+h2.subtitle-single {
+    font: {
+        family: $text-font;
+        size: 15px;
+        weight: bolder;
+    }
+}
+
+.network-article {
+    background: transparent;
+    text-transform: uppercase;
+
+    button {
+        margin: 4px;
+    }
+
+    font: {
+        family: $brand-font;
+        size: 10px;
+    }
+
+    :nth-child(1):before {
+        a {
+            background: transparent;
+            font-size: 12px;
+        }
+    }
+
+    :nth-child(2) {
+        background: rgb(65, 62, 62);
+
+        a {
+            background: transparent;
+            font-size: 12px;
+        }
+    }
+
+    :nth-child(3) {
+        background: rgb(118, 119, 161);
+
+        a {
+            background: transparent;
+            font-size: 12px;
+        }
+    }
+
+    :nth-child(4) {
+        background: rgb(79, 197, 226);
+    }
+
+    :nth-child(5) {
+        background: red;
+    }
+}
+
+/*Subscribe to The Digest Newslette*/
+h2 {
+    &.previous-article-title {
+        text-align: left;
+        width: 150%;
+        margin-bottom: 80px;
+        margin-top: 50px;
+
+        font: {
+            family: $text-font;
+            size: 15px;
+            weight: bold;
+        }
+    }
+
+    /*end of second section*/
+
+    &.title-rubric {
+        font-family: $text-font;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    &.title-subscribe-single {
+        text-align: center;
+
+        font: {
+            family: $brand-font;
+            size: 30px;
+        }
+    }
+
+    &.title-response {
+        font-family: $text-font;
+        font-size: 12px;
+    }
+}
+
+p {
+    &.subtitle-subscribe-single {
+        text-align: center;
+    }
+}
+/*partie entrée email*/
+form.form-subscribe-single {
+    text-align: center;
+    margin: 15px;
+}
+
+.previous-article a {
+    color: grey;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 20px;
+    opacity: 0.5;
+}
+
+span.sign-up-subscribe-single {
+    background: rgb(233, 150, 122);
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+input.input-subscribe-single {
+    padding: 5px;
+    border-right: none;
+    width: 60%;
+}
+/*texte farmers dogs fin de section*/
+p.text-rubric {
+    margin-left: 20px;
+    margin-bottom: 50px;
+    opacity: 0.5;
+}
+/*image farmer dogs oranges*/
+.col-2 {
+    :nth-child(1) {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.title-alsolike {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+.title-image {
+    font-family: $text-font;
+    font-size: 10px;
+    margin:30px;
+}
+
+/*entree " ecrire votre commentaire"*/
+form.form-response {
+    textarea.text-response {
+        width: 100%;
+        height: 100px;
+        border: solid 1px rgb(214, 199, 199);
+        color: rgb(214, 199, 199);
+        margin-bottom: 10px;
+    }
+}
+
+/*name email website input modification*/
+.inputemail {
+    width: 80%;
+    margin-bottom: 10px;
+    border: solid 1px rgb(214, 199, 199);
+    color: rgb(214, 199, 199);
+}
+
+button.btn-secondary {
+    background: black;
+    font-size: 8px;
+}
+
+.nav-emai {
+    display: none;
+}
